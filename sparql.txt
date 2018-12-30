@@ -1,0 +1,19 @@
+SPARQL Queries
+
+1. Get all programming languages
+
+SELECT DISTINCT  ?lang {
+?lang rdf:type <http://dbpedia.org/ontology/ProgrammingLanguage>
+} Limit 10000
+
+PYTHON LIBRARY
+https://rdflib.github.io/sparqlwrapper/
+
+2. DOUBLE
+SELECT ?pl ?paradigm
+    WHERE {
+        ?pl dbp:paradigm ?paradigm .
+        ?pl rdf:type dbo:ProgrammingLanguage .
+    }
+
+ProgrammingLanguage BASIC
