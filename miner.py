@@ -1,5 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
-from graphviz import Digraph
+from graphviz import Graph
+from collections import Counter
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 sparql.setQuery("""
@@ -14,11 +15,10 @@ results = sparql.query().convert()
 
 queried = {}
 paradigmas = {}
-paradigmCount = {}
+renderSet = []
 
-g = Digraph('G', filename='miner.gv', engine='sfdp')
-g.attr(size='6,6')
-g.node_attr.update(color='lightblue2', style='filled')
+g = Graph(filename='miner.gv', engine='sfdp', format='png')
+g.attr(size='20', repulsiveforce='0.1', overlap='false',splines='curved')
 for result in results["results"]["bindings"]:
     name = result["pl"]["value"].split("resource/")
     paradigm = result["paradigm"]["value"]
@@ -39,9 +39,25 @@ for result in results["results"]["bindings"]:
                 queried[paradigm] = paradigm.split("resource/")[1]
         print('%s: %s' % (name[1], queried.get(paradigm)))
         paradigmas[name[1]] = queried.get(paradigm)
-        g.edge(queried.get(paradigm),name[1] )
+        renderSet.append((queried.get(paradigm).replace("programming ","").replace(" programming", ""),name[1]))
     else:
         print('%s: %s' % (name[1], result["paradigm"]["value"]))
+
+
+g.node_attr.update(color='lightblue2', style='filled', fontname='helvetica')
+counterResults = dict(Counter([i[0] for i in renderSet]))
+for count in counterResults.keys():
+    occurrence = counterResults.get(count)
+    g.attr('node',
+    fontsize=str((occurrence*6)+20),
+     width=str((occurrence/2)), height=str((occurrence/2)))
+    g.node(count)
+
+g.attr('node',
+    fontsize="0",
+     width="2", height="2")
+for renderEntry in renderSet:
+    g.edge(renderEntry[0], renderEntry[1])
 
 
 g.render()
