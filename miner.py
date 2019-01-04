@@ -1,8 +1,18 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from graphviz import Graph
 from collections import Counter
+import random
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+
+sparql.setQuery("""
+        SELECT DISTINCT  ?lang {
+        ?lang rdf:type <http://dbpedia.org/ontology/ProgrammingLanguage>
+        }
+""")
+
+sparql.setReturnFormat(JSON)
+print(len( sparql.query().convert()['results']['bindings']))
 sparql.setQuery("""
     SELECT ?pl ?paradigm
     WHERE {
@@ -10,9 +20,9 @@ sparql.setQuery("""
         ?pl rdf:type dbo:ProgrammingLanguage .
     }
 """)
-sparql.setReturnFormat(JSON)
-results = sparql.query().convert()
 
+results = sparql.query().convert()
+print(len(results['results']['bindings']))
 queried = {}
 paradigmas = {}
 renderSet = []
@@ -44,21 +54,25 @@ for result in results["results"]["bindings"]:
         print('%s: %s' % (name[1], result["paradigm"]["value"]))
 
 
-g.node_attr.update(color='lightblue2', style='filled', fontname='helvetica')
+g.node_attr.update(color='#9dd600', style='filled', fontname='helvetica')
 counterResults = dict(Counter([i[0] for i in renderSet]))
 for count in counterResults.keys():
     occurrence = counterResults.get(count)
     g.attr('node',
-    fontsize=str((occurrence*6)+20),
+    fixedsize='shape',
+    color='#00a2ed',
+    fontsize=str((occurrence*5)+100),
      width=str((occurrence/2)), height=str((occurrence/2)))
     g.node(count)
 
 g.attr('node',
+    color='#fc4e0f',
     fontsize="0",
-     width="2", height="2")
+    width="2", height="2")
 for renderEntry in renderSet:
     g.edge(renderEntry[0], renderEntry[1])
 
+print(len(renderSet))
 
 g.render()
 
