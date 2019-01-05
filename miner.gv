@@ -1,1214 +1,2307 @@
 graph {
-	node [color="#9dd600" fontname=helvetica style=filled]
+	node [color="#BDBDBD" fontname=helvetica style=filled]
 	overlap=false repulsiveforce=0.1 size=20 splines=curved
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Markup language"
-	node [color="#00a2ed" fixedsize=shape fontsize=725 height=62.5 width=62.5]
-	"Object-oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=645 height=54.5 width=54.5]
-	"Multi-paradigm language"
-	node [color="#00a2ed" fixedsize=shape fontsize=485 height=38.5 width=38.5]
-	Procedural
-	node [color="#00a2ed" fixedsize=shape fontsize=185 height=8.5 width=8.5]
-	"Event-driven"
-	node [color="#00a2ed" fixedsize=shape fontsize=130 height=3.0 width=3.0]
-	Dataflow
-	node [color="#00a2ed" fixedsize=shape fontsize=640 height=54.0 width=54.0]
-	Functional
-	node [color="#00a2ed" fixedsize=shape fontsize=760 height=66.0 width=66.0]
-	Imperative
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	Unstructured
-	node [color="#00a2ed" fixedsize=shape fontsize=190 height=9.0 width=9.0]
-	Declarative
-	node [color="#00a2ed" fixedsize=shape fontsize=440 height=34.0 width=34.0]
-	Structured
-	node [color="#00a2ed" fixedsize=shape fontsize=135 height=3.5 width=3.5]
-	"Imperative language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Constraint logic"
-	node [color="#00a2ed" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Object-oriented language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Formal verification"
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Lazy evaluation"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Non-strict language"
-	node [color="#00a2ed" fixedsize=shape fontsize=165 height=6.5 width=6.5]
-	Modular
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Nondeterministic
-	node [color="#00a2ed" fixedsize=shape fontsize=175 height=7.5 width=7.5]
-	Concurrent
-	node [color="#00a2ed" fixedsize=shape fontsize=135 height=3.5 width=3.5]
-	"Compiled language"
-	node [color="#00a2ed" fixedsize=shape fontsize=165 height=6.5 width=6.5]
-	Generic
-	node [color="#00a2ed" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Visual language"
-	node [color="#00a2ed" fixedsize=shape fontsize=175 height=7.5 width=7.5]
-	Logic
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Component-based software engineering"
-	node [color="#00a2ed" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	Parallel
-	node [color="#00a2ed" fixedsize=shape fontsize=160 height=6.0 width=6.0]
-	"Prototype-based"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Action language"
-	node [color="#00a2ed" fixedsize=shape fontsize=180 height=8.0 width=8.0]
-	"Scripting language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Logic Programming"
-	node [color="#00a2ed" fixedsize=shape fontsize=140 height=4.0 width=4.0]
-	"Multi-paradigm"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Embedded system"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Functional (programming)"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Object-oriented (programming)"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Dependent type"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Agent-oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	Reactive
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Synchronous language"
-	node [color="#00a2ed" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Procedural language"
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Function-level"
-	node [color="#00a2ed" fixedsize=shape fontsize=130 height=3.0 width=3.0]
-	"Concurrent computing"
-	node [color="#00a2ed" fixedsize=shape fontsize=175 height=7.5 width=7.5]
-	Array
-	node [color="#00a2ed" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Simulation language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Graphical
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Concept
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Functional language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"High-level assembler"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Interpreted language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Data-driven"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Esoteric language"
-	node [color="#00a2ed" fixedsize=shape fontsize=155 height=5.5 width=5.5]
-	Metaprogramming
-	node [color="#00a2ed" fixedsize=shape fontsize=170 height=7.0 width=7.0]
-	Reflective
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Concatenative language"
-	node [color="#00a2ed" fixedsize=shape fontsize=145 height=4.5 width=4.5]
-	"Reflection (computer science)"
-	node [color="#00a2ed" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Stack-oriented language"
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Knowledge representation"
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Programming paradigm"
-	node [color="#00a2ed" fixedsize=shape fontsize=135 height=3.5 width=3.5]
-	"Educational language"
-	node [color="#00a2ed" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Concurrent language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Stack-based"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Language oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Data exchange language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"The Task-based Asynchronous Pattern"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Assembly language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Protocol (object-oriented)"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Block (programming)"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Query language"
-	node [color="#00a2ed" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	Distributed
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Process-oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Distributed computing"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	Typesetting
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Aspect-oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Template engine (web)"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Pi calculus"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Real-time computing"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Multi-core processor"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Fourth-generation language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"End-user development"
-	node [color="#00a2ed" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Domain-specific language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Design by contract"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Scripting Language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Object oriented language"
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	Constraint
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Data-centric language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Class-based"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Structural Equation Modeling"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Declarative Language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Natural language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Tacit
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Object oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Object-capability model"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Meta
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Concurrent constraint logic"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Reversible computing"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Pipeline
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Actor model"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Term-rewriting"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Algebraic types"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Prototype-oriented"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Object-oriented analysis and design"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Purely functional"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Message passing"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Object database"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Distributed cache"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"In-memory database"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"In-Memory Processing"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Symbolic
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Extensible
-	node [color="#00a2ed" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Computer simulation"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Algorithmic_programming
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Expression-oriented language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Logic language"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Design by Contract"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Rewriting
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Parallel model"
-	node [color="#00a2ed" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	Functionqal_programming
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Markup language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=725 height=62.5 width=62.5]
+	"Object-oriented
+125"
+	node [color="#BDBDBD" fixedsize=shape fontsize=645 height=54.5 width=54.5]
+	"Multi-paradigm language
+109"
+	node [color="#BDBDBD" fixedsize=shape fontsize=485 height=38.5 width=38.5]
+	"Procedural
+77"
+	node [color="#BDBDBD" fixedsize=shape fontsize=185 height=8.5 width=8.5]
+	"Event-driven
+17"
+	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
+	"Dataflow
+6"
+	node [color="#BDBDBD" fixedsize=shape fontsize=640 height=54.0 width=54.0]
+	"Functional
+108"
+	node [color="#BDBDBD" fixedsize=shape fontsize=760 height=66.0 width=66.0]
+	"Imperative
+132"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Unstructured
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=190 height=9.0 width=9.0]
+	"Declarative
+18"
+	node [color="#BDBDBD" fixedsize=shape fontsize=440 height=34.0 width=34.0]
+	"Structured
+68"
+	node [color="#BDBDBD" fixedsize=shape fontsize=135 height=3.5 width=3.5]
+	"Imperative language
+7"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Constraint logic
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Object-oriented language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Formal verification
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Lazy evaluation
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Non-strict language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=165 height=6.5 width=6.5]
+	"Modular
+13"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Nondeterministic
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=175 height=7.5 width=7.5]
+	"Concurrent
+15"
+	node [color="#BDBDBD" fixedsize=shape fontsize=135 height=3.5 width=3.5]
+	"Compiled language
+7"
+	node [color="#BDBDBD" fixedsize=shape fontsize=165 height=6.5 width=6.5]
+	"Generic
+13"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Visual language
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=175 height=7.5 width=7.5]
+	"Logic
+15"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Component-based software engineering
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Parallel
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=160 height=6.0 width=6.0]
+	"Prototype-based
+12"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Action language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=180 height=8.0 width=8.0]
+	"Scripting language
+16"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Logic Programming
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=140 height=4.0 width=4.0]
+	"Multi-paradigm
+8"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Embedded system
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Functional (programming)
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Object-oriented (programming)
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Dependent type
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Agent-oriented
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Reactive
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Synchronous language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Procedural language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Function-level
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
+	"Concurrent computing
+6"
+	node [color="#BDBDBD" fixedsize=shape fontsize=175 height=7.5 width=7.5]
+	"Array
+15"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Simulation language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Graphical
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Concept
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Functional language
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"High-level assembler
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Interpreted language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Data-driven
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Esoteric language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=155 height=5.5 width=5.5]
+	"Metaprogramming
+11"
+	node [color="#BDBDBD" fixedsize=shape fontsize=170 height=7.0 width=7.0]
+	"Reflective
+14"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Concatenative language
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=145 height=4.5 width=4.5]
+	"Reflection (computer science)
+9"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Stack-oriented language
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Knowledge representation
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Programming paradigm
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=135 height=3.5 width=3.5]
+	"Educational language
+7"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Concurrent language
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Stack-based
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Language oriented
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Data exchange language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"The Task-based Asynchronous Pattern
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Assembly language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Protocol (object-oriented)
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Block (programming)
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Query language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Distributed
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Process-oriented
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Distributed computing
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Typesetting
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Aspect-oriented
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Template engine (web)
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Pi calculus
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Real-time computing
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Multi-core processor
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Fourth-generation language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"End-user development
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Domain-specific language
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Design by contract
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Scripting Language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Object oriented language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Constraint
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Data-centric language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Class-based
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Structural Equation Modeling
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Declarative Language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Natural language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Tacit
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Object oriented
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Object-capability model
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Meta
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Concurrent constraint logic
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Reversible computing
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Pipeline
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Actor model
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Term-rewriting
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Algebraic types
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Prototype-oriented
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Object-oriented analysis and design
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Purely functional
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Message passing
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Object database
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Distributed cache
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"In-memory database
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"In-Memory Processing
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Symbolic
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Extensible
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Computer simulation
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Algorithmic_programming
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Expression-oriented language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Logic language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Design by Contract
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Rewriting
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Parallel model
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Functionqal_programming
+1"
 	node [color="#fc4e0f" fontsize=0 height=2 width=2]
-	"Markup language" -- "Curl_(programming_language)"
-	"Object-oriented" -- "Curl_(programming_language)"
-	"Multi-paradigm language" -- "Curl_(programming_language)"
-	Procedural -- Liberty_BASIC
-	"Event-driven" -- Liberty_BASIC
-	Dataflow -- SISAL
-	Functional -- SISAL
-	Imperative -- SNOBOL
-	Unstructured -- SNOBOL
-	"Multi-paradigm language" -- SQL
-	Declarative -- SQL
-	Functional -- Sather
-	"Object-oriented" -- Sather
-	"Object-oriented" -- Simula
-	"Object-oriented" -- Squeak
-	Procedural -- "Turing_(programming_language)"
-	"Object-oriented" -- "Turing_(programming_language)"
-	"Multi-paradigm language" -- "Turing_(programming_language)"
-	Declarative -- XSLT
-	Procedural -- ALGOL_58
-	Structured -- ALGOL_58
-	"Imperative language" -- ALGOL_58
-	Procedural -- ALGOL_60
-	Structured -- ALGOL_60
-	Imperative -- ALGOL_60
-	Procedural -- ALGOL_W
-	Structured -- ALGOL_W
-	Imperative -- ALGOL_W
-	"Object-oriented" -- "Ceylon_(programming_language)"
-	"Constraint logic" -- Constraint_Handling_Rules
-	"Object-oriented language" -- "Cool_(programming_language)"
-	Functional -- "F*_(programming_language)"
-	Imperative -- "F*_(programming_language)"
-	"Formal verification" -- "F*_(programming_language)"
-	"Multi-paradigm language" -- "F*_(programming_language)"
-	"Object-oriented" -- Generic_Java
-	Structured -- "Genie_(programming_language)"
-	Imperative -- "Genie_(programming_language)"
-	"Object-oriented" -- "Genie_(programming_language)"
-	"Multi-paradigm language" -- "Genie_(programming_language)"
-	Functional -- "Haskell_(programming_language)"
-	"Lazy evaluation" -- "Haskell_(programming_language)"
-	"Non-strict language" -- "Haskell_(programming_language)"
-	Imperative -- "Haskell_(programming_language)"
-	Modular -- "Haskell_(programming_language)"
-	Nondeterministic -- "Orc_(programming_language)"
-	Concurrent -- "Orc_(programming_language)"
-	Procedural -- "PLEX_(programming_language)"
-	Imperative -- "PLEX_(programming_language)"
-	Functional -- "Pixie_(programming_language)"
-	"Compiled language" -- "Rust_(programming_language)"
-	Functional -- "Rust_(programming_language)"
-	Structured -- "Rust_(programming_language)"
-	Generic -- "Rust_(programming_language)"
-	Imperative -- "Rust_(programming_language)"
-	"Multi-paradigm language" -- "Rust_(programming_language)"
-	Concurrent -- "Rust_(programming_language)"
-	"Visual language" -- VSXu
-	Logic -- CLACL
-	"Object-oriented" -- Design_By_Numbers
-	Structured -- Microsoft_Small_Basic
-	Imperative -- Microsoft_Small_Basic
-	"Object-oriented" -- Microsoft_Small_Basic
-	Functional -- "Newspeak_(programming_language)"
-	"Object-oriented" -- "Newspeak_(programming_language)"
-	Functional -- "Reia_(programming_language)"
-	Imperative -- "Reia_(programming_language)"
-	"Multi-paradigm language" -- "Reia_(programming_language)"
-	Concurrent -- "Reia_(programming_language)"
-	Declarative -- "Reia_(programming_language)"
-	"Object-oriented language" -- "Reia_(programming_language)"
-	Functional -- "CPL_(programming_language)"
-	Procedural -- "CPL_(programming_language)"
-	Structured -- "CPL_(programming_language)"
-	"Imperative language" -- "CPL_(programming_language)"
-	"Multi-paradigm language" -- "CPL_(programming_language)"
-	Procedural -- DIBOL
-	Structured -- DIBOL
-	"Imperative language" -- DIBOL
-	Functional -- Object_Pascal
-	Structured -- Object_Pascal
-	Generic -- Object_Pascal
-	Imperative -- Object_Pascal
-	"Event-driven" -- Object_Pascal
-	"Component-based software engineering" -- Object_Pascal
-	"Object-oriented" -- Object_Pascal
-	Parallel -- Obliq
-	"Prototype-based" -- Obliq
-	"Multi-paradigm language" -- Obliq
-	Structured -- "RTL/2"
-	Imperative -- "RTL/2"
-	"Action language" -- "TLA+"
-	Functional -- "Agda_(programming_language)"
-	"Object-oriented" -- "Chapel_(programming_language)"
-	Functional -- Extensible_Embeddable_Language
-	Imperative -- Extensible_Embeddable_Language
-	"Object-oriented" -- Extensible_Embeddable_Language
-	"Multi-paradigm language" -- Extensible_Embeddable_Language
-	"Scripting language" -- Extensible_Embeddable_Language
-	Functional -- "Little_b_(programming_language)"
-	"Object-oriented" -- Solidity
-	"Logic Programming" -- XSB
-	"Multi-paradigm" -- "JScript_.NET"
-	Structured -- Open_Programming_Language
-	Imperative -- Open_Programming_Language
-	"Embedded system" -- Open_Programming_Language
-	Structured -- "SP/k"
-	Imperative -- "SP/k"
-	Logic -- Aldor
-	Imperative -- Aldor
-	"Functional (programming)" -- Aldor
-	"Multi-paradigm language" -- Aldor
-	"Object-oriented (programming)" -- Aldor
-	"Dependent type" -- Aldor
-	Imperative -- ColdFusion_Markup_Language
-	"Object-oriented" -- ColdFusion_Markup_Language
-	Logic -- "Gödel_(programming_language)"
-	Declarative -- "Gödel_(programming_language)"
-	Procedural -- Guido_van_Robot
-	"Agent-oriented" -- AgentSpeak
-	"Compiled language" -- "Alef_(programming_language)"
-	Structured -- "Alef_(programming_language)"
-	Concurrent -- "Alef_(programming_language)"
-	Functional -- "Atom_(programming_language)"
-	Reactive -- "Atom_(programming_language)"
-	"Synchronous language" -- "Atom_(programming_language)"
-	"Procedural language" -- CHILL
-	"Multi-paradigm language" -- "COLA_(software_architecture)"
-	Structured -- COMAL
-	"Multi-paradigm language" -- ChucK
-	"Function-level" -- "FP_(programming_language)"
-	Procedural -- FreeBASIC
-	"Object-oriented" -- FreeBASIC
-	"Concurrent computing" -- "Limbo_(programming_language)"
-	"Multi-paradigm language" -- "Nickle_(programming_language)"
-	Functional -- "Q_(programming_language_from_Kx_Systems)"
-	Array -- "Q_(programming_language_from_Kx_Systems)"
-	Functional -- "SASL_(programming_language)"
-	"Multi-paradigm language" -- "SPARK_(programming_language)"
-	"Simulation language" -- "STELLA_(programming_language)"
-	"Visual language" -- "STELLA_(programming_language)"
-	Imperative -- "Scratch_(programming_language)"
-	"Event-driven" -- "Scratch_(programming_language)"
-	Functional -- Tcl
-	Procedural -- Tcl
-	Imperative -- Tcl
-	"Event-driven" -- Tcl
-	"Object-oriented" -- Tcl
-	"Multi-paradigm language" -- Tcl
-	Graphical -- WebMethods_Flow
-	Structured -- WebMethods_Flow
-	"Object-oriented" -- WebMethods_Flow
-	Functional -- "XL_(programming_language)"
-	Imperative -- "XL_(programming_language)"
-	Concept -- "XL_(programming_language)"
-	"Multi-paradigm language" -- "XL_(programming_language)"
-	Logic -- Absys
-	Imperative -- Standard_ML
-	"Multi-paradigm language" -- Standard_ML
-	"Functional language" -- Standard_ML
-	Procedural -- "Babbage_(programming_language)"
-	Structured -- "Babbage_(programming_language)"
-	"High-level assembler" -- "Babbage_(programming_language)"
-	Functional -- DUP_programming_language
-	"Interpreted language" -- DUP_programming_language
-	Functional -- "Epigram_(programming_language)"
-	Procedural -- Programming_Language_for_Business
-	Imperative -- Programming_Language_for_Business
-	Functional -- Concurrent_Euclid
-	Structured -- Concurrent_Euclid
-	Imperative -- Concurrent_Euclid
-	"Multi-paradigm language" -- Concurrent_Euclid
-	Procedural -- "Turing+"
-	"Object-oriented" -- "Turing+"
-	"Multi-paradigm language" -- "Turing+"
-	Concurrent -- "Turing+"
-	Procedural -- ALGOL
-	Structured -- ALGOL
-	Imperative -- ALGOL
-	Procedural -- "AMOS_(programming_language)"
-	Imperative -- "AMOS_(programming_language)"
-	Functional -- "APL_(programming_language)"
-	Structured -- "APL_(programming_language)"
-	Array -- "APL_(programming_language)"
-	Modular -- "APL_(programming_language)"
-	Procedural -- AWK
-	"Data-driven" -- AWK
-	"Scripting language" -- AWK
-	"Multi-paradigm language" -- "Ada_(programming_language)"
-	Imperative -- Assembly_language
-	Unstructured -- Assembly_language
-	Procedural -- BCPL
-	Structured -- BCPL
-	Imperative -- BCPL
-	Structured -- Brainfuck
-	Imperative -- Brainfuck
-	"Esoteric language" -- Brainfuck
-	Procedural -- "CLU_(programming_language)"
-	"Object-oriented" -- "CLU_(programming_language)"
-	"Multi-paradigm language" -- "CLU_(programming_language)"
-	Procedural -- COBOL
-	Imperative -- COBOL
-	"Object-oriented" -- COBOL
-	Functional -- Common_Lisp
-	Procedural -- Common_Lisp
-	Generic -- Common_Lisp
-	Metaprogramming -- Common_Lisp
-	"Object-oriented" -- Common_Lisp
-	"Multi-paradigm language" -- Common_Lisp
-	Reflective -- Common_Lisp
-	Procedural -- Coral_66
-	Structured -- Coral_66
-	"Imperative language" -- Coral_66
-	Functional -- "Dylan_(programming_language)"
-	"Object-oriented" -- "Dylan_(programming_language)"
-	"Multi-paradigm language" -- "Dylan_(programming_language)"
-	"Object-oriented" -- "Eiffel_(programming_language)"
-	Functional -- Emacs_Lisp
-	Metaprogramming -- Emacs_Lisp
-	Reflective -- Emacs_Lisp
-	Imperative -- "Euphoria_(programming_language)"
-	Procedural -- "Forth_(programming_language)"
-	"Concatenative language" -- "Forth_(programming_language)"
-	"Reflection (computer science)" -- "Forth_(programming_language)"
-	"Stack-oriented language" -- "Forth_(programming_language)"
-	"Knowledge representation" -- "KRL_(programming_language)"
-	Functional -- Kent_Recursive_Calculator
-	Functional -- "Lisp_(programming_language)"
-	Procedural -- "Lisp_(programming_language)"
-	Metaprogramming -- "Lisp_(programming_language)"
-	"Multi-paradigm language" -- "Lisp_(programming_language)"
-	"Reflection (computer science)" -- "Lisp_(programming_language)"
-	"Programming paradigm" -- LiveScript
-	Functional -- LiveScript
-	"Object-oriented" -- LiveScript
-	Functional -- "Logo_(programming_language)"
-	Procedural -- "Logo_(programming_language)"
-	"Educational language" -- "Logo_(programming_language)"
-	"Multi-paradigm language" -- "Logo_(programming_language)"
-	"Reflection (computer science)" -- "Logo_(programming_language)"
-	Functional -- "ML_(programming_language)"
-	Imperative -- "ML_(programming_language)"
-	"Multi-paradigm language" -- "ML_(programming_language)"
-	Procedural -- MUMPS
-	Imperative -- "Mary_(programming_language)"
-	Functional -- "Mercury_(programming_language)"
-	Logic -- "Mercury_(programming_language)"
-	"Object-oriented" -- "Mercury_(programming_language)"
-	Array -- Nial
-	Structured -- "Oberon_(programming_language)"
-	Imperative -- "Oberon_(programming_language)"
-	"Object-oriented" -- "Oberon_(programming_language)"
-	Modular -- "Oberon_(programming_language)"
-	"Concurrent language" -- "Occam_(programming_language)"
-	Functional -- PHP
-	Procedural -- PHP
-	Imperative -- PHP
-	"Object-oriented" -- PHP
-	Reflective -- PHP
-	Procedural -- "PL/I"
-	Structured -- "PL/I"
-	Imperative -- "PL/I"
-	Structured -- "Pascal_(programming_language)"
-	Imperative -- "Pascal_(programming_language)"
-	Procedural -- PostScript
-	"Stack-based" -- PostScript
-	"Multi-paradigm language" -- PostScript
-	Logic -- Prolog
-	Functional -- "Python_(programming_language)"
-	Procedural -- "Python_(programming_language)"
-	Imperative -- "Python_(programming_language)"
-	"Object-oriented" -- "Python_(programming_language)"
-	"Multi-paradigm language" -- "Python_(programming_language)"
-	Reflective -- "Python_(programming_language)"
-	"Language oriented" -- Rebol
-	Functional -- Rebol
-	"Data exchange language" -- Rebol
-	Imperative -- Rebol
-	"Prototype-based" -- Rebol
-	Functional -- "Ruby_(programming_language)"
-	Imperative -- "Ruby_(programming_language)"
-	"Object-oriented" -- "Ruby_(programming_language)"
-	"Multi-paradigm language" -- "Ruby_(programming_language)"
-	Reflective -- "Ruby_(programming_language)"
-	"Scripting language" -- Sed
-	"Object-oriented" -- Smalltalk
-	Functional -- "C_Sharp_(programming_language)"
-	Structured -- "C_Sharp_(programming_language)"
-	Generic -- "C_Sharp_(programming_language)"
-	Imperative -- "C_Sharp_(programming_language)"
-	"Event-driven" -- "C_Sharp_(programming_language)"
-	"The Task-based Asynchronous Pattern" -- "C_Sharp_(programming_language)"
-	"Object-oriented" -- "C_Sharp_(programming_language)"
-	"Multi-paradigm language" -- "C_Sharp_(programming_language)"
-	Reflective -- "C_Sharp_(programming_language)"
-	"Concurrent computing" -- "C_Sharp_(programming_language)"
-	"Object-oriented" -- "Crystal_(programming_language)"
-	"Multi-paradigm language" -- "Crystal_(programming_language)"
-	Imperative -- DIGITAL_Command_Language
-	"Object-oriented" -- "Emerald_(programming_language)"
-	Functional -- "Euclid_(programming_language)"
-	Structured -- "Euclid_(programming_language)"
-	Imperative -- "Euclid_(programming_language)"
-	"Multi-paradigm language" -- "Euclid_(programming_language)"
-	Functional -- "F_Sharp_(programming_language)"
-	Imperative -- "F_Sharp_(programming_language)"
-	Metaprogramming -- "F_Sharp_(programming_language)"
-	"Object-oriented" -- "F_Sharp_(programming_language)"
-	"Multi-paradigm language" -- "F_Sharp_(programming_language)"
-	Concurrent -- "F_Sharp_(programming_language)"
-	Imperative -- Flow_chart_language
-	"Multi-paradigm language" -- Haxe
-	Functional -- "Idris_(programming_language)"
-	"Assembly language" -- Information_Processing_Language
-	Procedural -- "Karel_(programming_language)"
-	Imperative -- MIVA_Script
-	Procedural -- "Oriel_(scripting_language)"
-	Imperative -- "Oriel_(scripting_language)"
-	"Event-driven" -- "Snap!_(programming_language)"
-	"Object-oriented" -- "Snap!_(programming_language)"
-	"Educational language" -- "Snap!_(programming_language)"
-	"Protocol (object-oriented)" -- "Swift_(programming_language)"
-	Functional -- "Swift_(programming_language)"
-	Imperative -- "Swift_(programming_language)"
-	"Block (programming)" -- "Swift_(programming_language)"
-	"Object-oriented" -- "Swift_(programming_language)"
-	"Multi-paradigm language" -- "Swift_(programming_language)"
-	"Query language" -- SPARQL
-	"Object-oriented" -- "Bistro_(programming_language)"
-	Functional -- Clojure
-	"Compiled language" -- "Go_(programming_language)"
-	Structured -- "Go_(programming_language)"
-	Imperative -- "Go_(programming_language)"
-	Concurrent -- "Go_(programming_language)"
-	"Prototype-based" -- "Ioke_(programming_language)"
-	"Object-oriented" -- "Ioke_(programming_language)"
-	"Knowledge representation" -- "LOOM_(ontology)"
-	Functional -- "R_(programming_language)"
-	Procedural -- "R_(programming_language)"
-	Array -- "R_(programming_language)"
-	Imperative -- "R_(programming_language)"
-	"Object-oriented" -- "R_(programming_language)"
-	"Multi-paradigm language" -- "R_(programming_language)"
-	Reflective -- "R_(programming_language)"
-	Procedural -- "EC_(programming_language)"
-	Generic -- "EC_(programming_language)"
-	"Object-oriented" -- "EC_(programming_language)"
-	"Multi-paradigm language" -- "EC_(programming_language)"
-	Functional -- "Elixir_(programming_language)"
-	"Multi-paradigm language" -- "Elixir_(programming_language)"
-	Concurrent -- "Elixir_(programming_language)"
-	Distributed -- "Elixir_(programming_language)"
-	"Process-oriented" -- "Elixir_(programming_language)"
-	Dataflow -- "Joule_(programming_language)"
-	"Distributed computing" -- "Joule_(programming_language)"
-	"Object-oriented" -- "Joule_(programming_language)"
-	"Multi-paradigm language" -- "Joule_(programming_language)"
-	Functional -- Cadence_SKILL
-	"Object-oriented" -- Cadence_SKILL
-	Structured -- "Joyce_(programming_language)"
-	"Concurrent language" -- "Joyce_(programming_language)"
-	Imperative -- "Joyce_(programming_language)"
-	Procedural -- "Object-Oriented_Turing"
-	"Object-oriented" -- "Object-Oriented_Turing"
-	"Multi-paradigm language" -- "Object-Oriented_Turing"
-	Concurrent -- "Object-Oriented_Turing"
-	Procedural -- Rexx
-	Structured -- Rexx
-	"Multi-paradigm language" -- Rexx
-	Imperative -- "Script.NET"
-	Metaprogramming -- "Script.NET"
-	"Scripting language" -- "Script.NET"
-	Functional -- XQuery
-	Modular -- XQuery
-	Declarative -- XQuery
-	Imperative -- Open_Roberta
-	"Event-driven" -- Open_Roberta
-	Array -- "A+_(programming_language)"
-	Functional -- Algebraic_Logic_Functional_programming_language
-	Logic -- Algebraic_Logic_Functional_programming_language
-	"Multi-paradigm language" -- Algebraic_Logic_Functional_programming_language
-	Functional -- "Opa_(programming_language)"
-	Imperative -- "Opa_(programming_language)"
-	"Multi-paradigm language" -- "Opa_(programming_language)"
-	Functional -- Abstract_State_Machine_Language
-	Imperative -- "Asymptote_(vector_graphics_language)"
-	Typesetting -- "Asymptote_(vector_graphics_language)"
-	"Aspect-oriented" -- "E_(verification_language)"
-	Functional -- "Elm_(programming_language)"
-	Functional -- Itk
-	Imperative -- Itk
-	"Event-driven" -- Itk
-	"Object-oriented" -- Itk
-	"Multi-paradigm language" -- Itk
-	Functional -- "Kojo_(programming_language)"
-	"Object-oriented" -- "Kojo_(programming_language)"
-	"Template engine (web)" -- Haml
-	Functional -- Incr_Tcl
-	Imperative -- Incr_Tcl
-	"Event-driven" -- Incr_Tcl
-	"Object-oriented" -- Incr_Tcl
-	"Multi-paradigm language" -- Incr_Tcl
-	"Object-oriented" -- "Cobra_(programming_language)"
-	"Multi-paradigm language" -- "Cobra_(programming_language)"
-	"Object-oriented" -- Judoscript
-	"Scripting language" -- Judoscript
-	Imperative -- MiniD
-	"Object-oriented" -- MiniD
-	"Multi-paradigm language" -- MiniD
-	"Multi-paradigm" -- Scientific_Vector_Language
-	"Object-oriented" -- Ateji_PX
-	"Pi calculus" -- Ateji_PX
-	Functional -- CoffeeScript
-	Imperative -- CoffeeScript
-	"Prototype-based" -- CoffeeScript
-	"Multi-paradigm" -- CoffeeScript
-	"Scripting language" -- CoffeeScript
-	Imperative -- "Mirah_(programming_language)"
-	"Object-oriented language" -- "Mirah_(programming_language)"
-	"Object-oriented" -- OptimJ
-	Reactive -- QML
-	"Multi-paradigm" -- QML
-	"Scripting language" -- QML
-	Declarative -- QML
-	Structured -- SuperPascal
-	Imperative -- SuperPascal
-	"Concurrent computing" -- SuperPascal
-	"Real-time computing" -- "XC_(programming_language)"
-	Parallel -- "XC_(programming_language)"
-	Imperative -- "XC_(programming_language)"
-	Concurrent -- "XC_(programming_language)"
-	Distributed -- "XC_(programming_language)"
-	"Multi-core processor" -- "XC_(programming_language)"
-	"Fourth-generation language" -- ActiveVFP
-	Procedural -- ActiveVFP
-	"Object-oriented" -- ActiveVFP
-	"Interpreted language" -- "Ezhil_(programming_language)"
-	Structured -- "Ezhil_(programming_language)"
-	Imperative -- "Ezhil_(programming_language)"
-	Distributed -- "Join-pattern"
-	"Concurrent computing" -- "Join-pattern"
-	Procedural -- M_Sharp
-	Structured -- M_Sharp
-	"Event-driven" -- M_Sharp
-	Metaprogramming -- M_Sharp
-	"Object-oriented" -- M_Sharp
-	"Multi-paradigm language" -- M_Sharp
-	Functional -- MexScript
-	Structured -- MexScript
-	"End-user development" -- MexScript
-	"Domain-specific language" -- MexScript
-	"Compiled language" -- "ParaSail_(programming_language)"
-	Structured -- "ParaSail_(programming_language)"
-	Imperative -- "ParaSail_(programming_language)"
-	"Object-oriented" -- "ParaSail_(programming_language)"
-	Concurrent -- "ParaSail_(programming_language)"
-	"Design by contract" -- Praspel
-	Functional -- "Qalb_(programming_language)"
-	"Scripting Language" -- RiscLua
-	Imperative -- SAMPL
-	"Multi-paradigm language" -- SAMPL
-	Declarative -- SAMPL
-	Functional -- Xtend
-	Imperative -- Xtend
-	"Object-oriented" -- Xtend
-	Imperative -- PeopleCode
-	"Object-oriented" -- PeopleCode
-	"Multi-paradigm language" -- PeopleCode
-	Functional -- JSONiq
-	Modular -- JSONiq
-	Declarative -- JSONiq
-	Functional -- UCBLogo
-	Procedural -- UCBLogo
-	"Educational language" -- UCBLogo
-	"Multi-paradigm language" -- UCBLogo
-	"Reflection (computer science)" -- UCBLogo
-	"Object-oriented" -- Umple
-	"Object oriented language" -- "Dolittle_(programming_language)"
-	"Multi-paradigm language" -- "Dolittle_(programming_language)"
-	Functional -- "ATS_(programming_language)"
-	Imperative -- "ATS_(programming_language)"
-	"Multi-paradigm language" -- "ATS_(programming_language)"
-	Functional -- "Alice_(programming_language)"
-	"Concurrent language" -- "Alice_(programming_language)"
-	Imperative -- "Alice_(programming_language)"
-	"Multi-paradigm language" -- "Alice_(programming_language)"
-	Distributed -- "Alice_(programming_language)"
-	Logic -- "Alma-0"
-	Constraint -- "Alma-0"
-	Imperative -- "Alma-0"
-	"Multi-paradigm language" -- "Alma-0"
-	Dataflow -- CAL_Actor_Language
-	Structured -- "Charm_(programming_language)"
-	Functional -- "Clean_(programming_language)"
-	Structured -- Component_Pascal
-	Imperative -- Component_Pascal
-	"Object-oriented" -- Component_Pascal
-	Modular -- Component_Pascal
-	Declarative -- "ECL_(data-centric_programming_language)"
-	"Data-centric language" -- "ECL_(data-centric_programming_language)"
-	Structured -- "ECL_(data-centric_programming_language)"
-	Array -- "ELI_(programming_language)"
-	Functional -- "Escher_(programming_language)"
-	Logic -- "Escher_(programming_language)"
-	Declarative -- "Escher_(programming_language)"
-	Functional -- "FL_(programming_language)"
-	"Function-level" -- "FL_(programming_language)"
-	"Prototype-based" -- "Io_(programming_language)"
-	"Object-oriented" -- "Io_(programming_language)"
-	"Esoteric language" -- LOLCODE
-	Functional -- "LPC_(programming_language)"
-	Procedural -- "LPC_(programming_language)"
-	"Prototype-based" -- "LPC_(programming_language)"
-	"Object-oriented" -- "LPC_(programming_language)"
-	"Multi-paradigm language" -- "LPC_(programming_language)"
-	"Class-based" -- "Objective-C"
-	"Object-oriented" -- "Objective-C"
-	"Reflection (computer science)" -- "Objective-C"
-	"Structural Equation Modeling" -- OpenMx
-	Procedural -- "PL/C"
-	Structured -- "PL/C"
-	Imperative -- "PL/C"
-	"Declarative Language" -- "Pan_(programming_language)"
-	Procedural -- Profile_Scripting_Language
-	"Object-oriented" -- "TOM_(object-oriented_programming_language)"
-	"Natural language" -- AppleScript
-	"Scripting language" -- AppleScript
-	Functional -- "C++"
-	Procedural -- "C++"
-	Generic -- "C++"
-	"Object-oriented" -- "C++"
-	"Multi-paradigm language" -- "C++"
-	Imperative -- "FLOW-MATIC"
-	Procedural -- HyperTalk
-	Functional -- "J_(programming_language)"
-	Array -- "J_(programming_language)"
-	"Function-level" -- "J_(programming_language)"
-	Tacit -- "J_(programming_language)"
-	"Prototype-based" -- NewtonScript
-	"Object-oriented" -- NewtonScript
-	Procedural -- "Plankalkül"
-	Procedural -- PureBasic
-	Structured -- PureBasic
-	Imperative -- PureBasic
-	Structured -- Verilog
-	"Scripting language" -- Chomski
-	"Multi-paradigm language" -- "Fantom_(programming_language)"
-	Imperative -- GrGen
-	"Multi-paradigm language" -- GrGen
-	Declarative -- GrGen
-	"Object oriented" -- GrGen
-	Functional -- "Objective-J"
-	Imperative -- "Objective-J"
-	"Multi-paradigm" -- "Objective-J"
-	"Object-oriented" -- "Objective-J"
-	"Reflection (computer science)" -- "Objective-J"
-	"Scripting language" -- "Objective-J"
-	Imperative -- PCASTL
-	Reflective -- PCASTL
-	"Multi-paradigm language" -- PLEXIL
-	"Object-oriented" -- Pnuts
-	"Scripting language" -- Pnuts
-	"Visual language" -- Vvvv
-	Imperative -- Sinclair_BASIC
-	Procedural -- QBasic
-	"Object-capability model" -- "Joe-E"
-	Functional -- PicoLisp
-	Procedural -- PicoLisp
-	"Object-oriented" -- PicoLisp
-	Reflective -- PicoLisp
-	Declarative -- PicoLisp
-	Meta -- PicoLisp
-	Procedural -- "ABC_(programming_language)"
-	Structured -- "ABC_(programming_language)"
-	Imperative -- "ABC_(programming_language)"
-	"Multi-paradigm language" -- "ABC_(programming_language)"
-	Functional -- ACL2
-	Metaprogramming -- ACL2
-	Imperative -- "CMS-2_(programming_language)"
-	Functional -- ECMAScript
-	Imperative -- ECMAScript
-	"Prototype-based" -- ECMAScript
-	"Multi-paradigm" -- ECMAScript
-	Procedural -- "Euler_(programming_language)"
-	Structured -- "Euler_(programming_language)"
-	Imperative -- "Euler_(programming_language)"
-	Functional -- "Factor_(programming_language)"
-	"Concatenative language" -- "Factor_(programming_language)"
-	"Multi-paradigm language" -- "Factor_(programming_language)"
-	"Stack-oriented language" -- "Factor_(programming_language)"
-	"Multi-paradigm language" -- "Hop_(software)"
-	"Multi-paradigm language" -- IBM_RPG
-	"Concurrent constraint logic" -- "Janus_(concurrent_constraint_programming_language)"
-	"Reversible computing" -- "Janus_(time-reversible_computing_programming_language)"
-	Imperative -- "Janus_(time-reversible_computing_programming_language)"
-	"Knowledge representation" -- KM_programming_language
-	Imperative -- "MAD_(programming_language)"
-	Functional -- "Miranda_(programming_language)"
-	"Lazy evaluation" -- "Miranda_(programming_language)"
-	Declarative -- "Miranda_(programming_language)"
-	Structured -- "Nu_(programming_language)"
-	Imperative -- "Nu_(programming_language)"
-	"Object-oriented" -- "Nu_(programming_language)"
-	Functional -- OCaml
-	Imperative -- OCaml
-	"Object-oriented" -- OCaml
-	"Multi-paradigm language" -- OCaml
-	Functional -- "Orwell_(programming_language)"
-	"Lazy evaluation" -- "Orwell_(programming_language)"
-	Functional -- "Oz_(programming_language)"
-	Logic -- "Oz_(programming_language)"
-	"Concurrent language" -- "Oz_(programming_language)"
-	Constraint -- "Oz_(programming_language)"
-	Imperative -- "Oz_(programming_language)"
-	"Object-oriented" -- "Oz_(programming_language)"
-	"Multi-paradigm language" -- "Oz_(programming_language)"
-	Distributed -- "Oz_(programming_language)"
-	Procedural -- "Pico_(programming_language)"
-	"Reflection (computer science)" -- "Pico_(programming_language)"
-	Functional -- "Pike_(programming_language)"
-	Procedural -- "Pike_(programming_language)"
-	"Object-oriented" -- "Pike_(programming_language)"
-	"Multi-paradigm language" -- "Pike_(programming_language)"
-	Functional -- "Racket_(programming_language)"
-	Logic -- "Racket_(programming_language)"
-	Procedural -- "Racket_(programming_language)"
-	Metaprogramming -- "Racket_(programming_language)"
-	"Object-oriented" -- "Racket_(programming_language)"
-	Modular -- "Racket_(programming_language)"
-	"Multi-paradigm language" -- "Racket_(programming_language)"
-	"Reflection (computer science)" -- "Racket_(programming_language)"
-	Structured -- "Raptor_(programming_language)"
-	Imperative -- "Raptor_(programming_language)"
-	Imperative -- Rc
-	Pipeline -- Rc
-	Functional -- SAC_programming_language
-	Array -- SAC_programming_language
-	"Actor model" -- "SALSA_(programming_language)"
-	Structured -- SystemVerilog
-	"Object-oriented" -- SystemVerilog
-	Functional -- TypeScript
-	Structured -- TypeScript
-	Generic -- TypeScript
-	Imperative -- TypeScript
-	"Object-oriented" -- TypeScript
-	"Multi-paradigm language" -- TypeScript
-	"Scripting language" -- TypeScript
-	Procedural -- "Unicon_(programming_language)"
-	"Object-oriented" -- "Unicon_(programming_language)"
-	"Programming paradigm" -- "Vala_(programming_language)"
-	Structured -- "Vala_(programming_language)"
-	Imperative -- "Vala_(programming_language)"
-	"Object-oriented" -- "Vala_(programming_language)"
-	"Multi-paradigm language" -- Visual_Basic_for_Applications
-	"Programming paradigm" -- Wolfram_Language
-	Functional -- Wolfram_Language
-	Procedural -- Wolfram_Language
-	Array -- Wolfram_Language
-	"Term-rewriting" -- Wolfram_Language
-	"Procedural language" -- XBLite
-	Structured -- ABAP
-	Imperative -- ABAP
-	"Object-oriented" -- ABAP
-	"Concurrent language" -- ALGOL_68
-	Imperative -- ALGOL_68
-	"Multi-paradigm language" -- ALGOL_68
-	"Object-oriented" -- "BETA_(programming_language)"
-	Dataflow -- CMS_Pipelines
-	Imperative -- DBase
-	Declarative -- DBase
-	"Compiled language" -- "D_(programming_language)"
-	Functional -- "D_(programming_language)"
-	Procedural -- "D_(programming_language)"
-	Generic -- "D_(programming_language)"
-	"Object-oriented" -- "D_(programming_language)"
-	"Multi-paradigm language" -- "D_(programming_language)"
-	Concurrent -- "D_(programming_language)"
-	Functional -- "Joy_(programming_language)"
-	"Concatenative language" -- "Joy_(programming_language)"
-	"Multi-paradigm language" -- "Joy_(programming_language)"
-	"Stack-oriented language" -- "Joy_(programming_language)"
-	Procedural -- MIRC_scripting_language
-	"Event-driven" -- MIRC_scripting_language
-	Declarative -- Mizar_system
-	Procedural -- "Modula-3"
-	Structured -- "Modula-3"
-	Imperative -- "Modula-3"
-	Modular -- "Modula-3"
-	Generic -- "Pizza_(programming_language)"
-	"Algebraic types" -- "Pizza_(programming_language)"
-	Functional -- Polyphonic_C_Sharp
-	Structured -- Polyphonic_C_Sharp
-	Imperative -- Polyphonic_C_Sharp
-	"Event-driven" -- Polyphonic_C_Sharp
-	"Object-oriented" -- Polyphonic_C_Sharp
-	"Multi-paradigm language" -- Polyphonic_C_Sharp
-	Concurrent -- Polyphonic_C_Sharp
-	"Object-oriented" -- "Processing_(programming_language)"
-	"Prototype-oriented" -- TADS
-	"Domain-specific language" -- TADS
-	Functional -- XOTcl
-	Imperative -- XOTcl
-	"Event-driven" -- XOTcl
-	"Object-oriented" -- XOTcl
-	"Multi-paradigm language" -- XOTcl
-	Imperative -- AMPL
-	"Multi-paradigm language" -- AMPL
-	Declarative -- AMPL
-	"Object-oriented analysis and design" -- "Boo_(programming_language)"
-	Functional -- "Cω"
-	Structured -- "Cω"
-	Imperative -- "Cω"
-	"Event-driven" -- "Cω"
-	"Object-oriented" -- "Cω"
-	"Multi-paradigm language" -- "Cω"
-	"Multi-paradigm" -- Perl_6
-	Imperative -- "C--"
-	"Purely functional" -- "Charity_(programming_language)"
-	"Object-oriented" -- "E_(programming_language)"
-	"Multi-paradigm language" -- "E_(programming_language)"
-	"Message passing" -- "E_(programming_language)"
-	Array -- "F-Script_(programming_language)"
-	"Object-oriented" -- "F-Script_(programming_language)"
-	"Multi-paradigm language" -- "F-Script_(programming_language)"
-	Functional -- "K_(programming_language)"
-	Array -- "K_(programming_language)"
-	Declarative -- Modelica
-	Procedural -- SETL
-	Structured -- SETL
-	Imperative -- SETL
-	"Object-oriented" -- SETL
-	"Multi-paradigm language" -- SETL
-	Imperative -- Standard_ML_of_New_Jersey
-	"Multi-paradigm language" -- Standard_ML_of_New_Jersey
-	"Functional language" -- Standard_ML_of_New_Jersey
-	"Object-oriented" -- "X10_(programming_language)"
-	Array -- "ZPL_(programming_language)"
-	Imperative -- MetaPost
-	Typesetting -- MetaPost
-	Imperative -- MSX_BASIC
-	Imperative -- "Whiley_(programming_language)"
-	"Functional language" -- "Whiley_(programming_language)"
-	Functional -- AntLang
-	Array -- AntLang
-	"Prototype-based" -- "Citrine_(programming_language)"
-	"Object-oriented" -- "Citrine_(programming_language)"
-	Functional -- Ebda3
-	Procedural -- Ebda3
-	Imperative -- Ebda3
-	"Object-oriented" -- Ebda3
-	"Multi-paradigm language" -- Ebda3
-	Reflective -- Ebda3
-	"Compiled language" -- "P4_(programming_language)"
-	Imperative -- "P4_(programming_language)"
-	"Domain-specific language" -- "P4_(programming_language)"
-	Functional -- "PascalABC.NET"
-	Procedural -- "PascalABC.NET"
-	Generic -- "PascalABC.NET"
-	"Object-oriented" -- "PascalABC.NET"
-	"Multi-paradigm language" -- "PascalABC.NET"
-	"Functional (programming)" -- "A♯_(Axiom)"
-	"Multi-paradigm language" -- "A♯_(Axiom)"
-	"Object-oriented (programming)" -- "A♯_(Axiom)"
-	"Prototype-based" -- Lisaac
-	"Object-oriented" -- Lisaac
-	Structured -- Speedcoding
-	Generic -- Speedcoding
-	"Object-oriented" -- Speedcoding
-	Procedural -- NetRexx
-	Structured -- NetRexx
-	"Object-oriented" -- NetRexx
-	"Multi-paradigm language" -- NetRexx
-	Functional -- "Extempore_(software)"
-	"Multi-paradigm language" -- "Extempore_(software)"
-	"Distributed computing" -- "Gemstone_(database)"
-	"Object database" -- "Gemstone_(database)"
-	"Distributed cache" -- "Gemstone_(database)"
-	"Object-oriented" -- "Gemstone_(database)"
-	"In-memory database" -- "Gemstone_(database)"
-	"In-Memory Processing" -- "Gemstone_(database)"
-	Functional -- "Impromptu_(programming_environment)"
-	"Multi-paradigm language" -- "Impromptu_(programming_environment)"
-	Structured -- "Neko_(programming_language)"
-	"Prototype-based" -- "Neko_(programming_language)"
-	"Object-oriented" -- "Neko_(programming_language)"
-	"Scripting language" -- "Neko_(programming_language)"
-	"Compiled language" -- "Nim_(programming_language)"
-	Procedural -- "Nim_(programming_language)"
-	Imperative -- "Nim_(programming_language)"
-	"Object-oriented" -- "Nim_(programming_language)"
-	"Multi-paradigm language" -- "Nim_(programming_language)"
-	Concurrent -- "Nim_(programming_language)"
-	Array -- Perl_Data_Language
-	Symbolic -- "Red_(programming_language)"
-	Functional -- "Red_(programming_language)"
-	Imperative -- "Red_(programming_language)"
-	"Multi-paradigm language" -- "SQL/PSM"
-	Structured -- Seed7
-	Generic -- Seed7
-	Imperative -- Seed7
-	"Object-oriented" -- Seed7
-	Extensible -- Seed7
-	"Multi-paradigm language" -- Seed7
-	Reflective -- Seed7
-	Parallel -- "C*"
-	Imperative -- "C*"
-	"Object-oriented" -- "C*"
-	"Multi-paradigm language" -- "C*"
-	Functional -- EuLisp
-	Procedural -- EuLisp
-	Metaprogramming -- EuLisp
-	"Object-oriented" -- EuLisp
-	"Multi-paradigm language" -- EuLisp
-	Functional -- "NIL_(programming_language)"
-	Procedural -- "NIL_(programming_language)"
-	"Multi-paradigm language" -- "NIL_(programming_language)"
-	"Simulation language" -- NetLogo
-	Procedural -- NetLogo
-	"Computer simulation" -- NetLogo
-	"Educational language" -- NetLogo
-	"Multi-paradigm language" -- NetLogo
-	"Simulation language" -- StarLogo
-	Procedural -- StarLogo
-	"Computer simulation" -- StarLogo
-	"Educational language" -- StarLogo
-	"Multi-paradigm language" -- StarLogo
-	Procedural -- FutureBASIC
-	"Object-oriented" -- GNU_E
-	Structured -- Monkey_X
-	Generic -- Monkey_X
-	Imperative -- Monkey_X
-	"Object-oriented" -- Monkey_X
-	Modular -- Monkey_X
-	"Multi-paradigm language" -- Monkey_X
-	"Reflection (computer science)" -- Monkey_X
-	"Concurrent computing" -- Monkey_X
-	Functional -- Nemerle
-	Imperative -- Nemerle
-	Metaprogramming -- Nemerle
-	"Object-oriented" -- Nemerle
-	"Multi-paradigm language" -- Nemerle
-	Functional -- Urbiscript
-	Procedural -- Urbiscript
-	Imperative -- Urbiscript
-	"Event-driven" -- Urbiscript
-	"Object-oriented" -- Urbiscript
-	"Multi-paradigm language" -- Urbiscript
-	Reflective -- Urbiscript
-	Functional -- Oaklisp
-	Procedural -- Oaklisp
-	"Multi-paradigm language" -- Oaklisp
-	"Object-oriented" -- Oaklisp
-	"Object-oriented" -- Object_Oberon
-	Imperative -- Vilnius_BASIC
-	Algorithmic_programming -- Vilnius_BASIC
-	Logic -- Logtalk
-	"Procedural language" -- Basic4GL
-	"Procedural language" -- Brutus2D
-	"Aspect-oriented" -- GluonJ
-	"Aspect-oriented" -- AspectJ
-	Functional -- ISWIM
-	"Imperative language" -- ISWIM
-	Imperative -- "MATH-MATIC"
-	"Object-oriented" -- BeanShell
-	"Scripting language" -- BeanShell
-	Procedural -- "F_(programming_language)"
-	Modular -- "F_(programming_language)"
-	Dataflow -- "Lucid_(programming_language)"
-	Structured -- "P′′"
-	Imperative -- "P′′"
-	Functional -- "T_(programming_language)"
-	Imperative -- "T_(programming_language)"
-	Metaprogramming -- "T_(programming_language)"
-	"Object-oriented" -- "T_(programming_language)"
-	"Multi-paradigm language" -- "T_(programming_language)"
-	Functional -- "Ciao_(programming_language)"
-	Logic -- "Ciao_(programming_language)"
-	"Object-oriented" -- "Ciao_(programming_language)"
-	Modular -- "Ciao_(programming_language)"
-	"Assembly language" -- "Jasmin_(software)"
-	Structured -- "Plus_(programming_language)"
-	Imperative -- "Plus_(programming_language)"
-	"Expression-oriented language" -- WebAssembly
-	Parallel -- "*Lisp"
-	Functional -- "Harbour_(software)"
-	Imperative -- "Harbour_(software)"
-	"Object-oriented" -- "Harbour_(software)"
-	"Multi-paradigm language" -- "Harbour_(software)"
-	Reflective -- "Harbour_(software)"
-	"Object-oriented" -- SK8
-	"Query language" -- XPath
-	Procedural -- CGOL
-	Structured -- CGOL
-	"Imperative language" -- CGOL
-	"Concurrent computing" -- Newsqueak
-	"Multi-paradigm language" -- ".QL"
-	"Logic language" -- ".QL"
-	"Object-oriented language" -- ".QL"
-	Functional -- "Scala_(programming_language)"
-	Imperative -- "Scala_(programming_language)"
-	"Object-oriented" -- "Scala_(programming_language)"
-	"Multi-paradigm language" -- "Scala_(programming_language)"
-	Concurrent -- "Scala_(programming_language)"
-	Functional -- Spec_Sharp
-	Structured -- Spec_Sharp
-	Imperative -- Spec_Sharp
-	"Event-driven" -- Spec_Sharp
-	"Object-oriented" -- Spec_Sharp
-	"Multi-paradigm language" -- Spec_Sharp
-	"Design by Contract" -- Spec_Sharp
-	Procedural -- "FACT_(computer_language)"
-	Imperative -- "FACT_(computer_language)"
-	Procedural -- JOVIAL
-	Structured -- JOVIAL
-	"Imperative language" -- JOVIAL
-	"Prototype-based" -- "Etoys_(programming_language)"
-	"Object-oriented" -- "Etoys_(programming_language)"
-	"Educational language" -- "Etoys_(programming_language)"
-	Logic -- Fril
-	Functional -- "Pure_(programming_language)"
-	Rewriting -- "Pure_(programming_language)"
-	Declarative -- "Pure_(programming_language)"
-	Procedural -- Join_Java
-	Reflective -- Join_Java
-	"Event-driven" -- "Sense_(programming)"
-	"Object-oriented" -- "Sense_(programming)"
-	"Educational language" -- "Sense_(programming)"
-	Functional -- "Squirrel_(programming_language)"
-	Imperative -- "Squirrel_(programming_language)"
-	"Object-oriented" -- "Squirrel_(programming_language)"
-	"Multi-paradigm language" -- "Squirrel_(programming_language)"
-	"Scripting language" -- "Squirrel_(programming_language)"
-	"Concurrent constraint logic" -- ToonTalk
-	"Simulation language" -- VisSim
-	"Visual language" -- VisSim
-	Modular -- VisSim
-	Procedural -- Yoix
-	"Multi-paradigm" -- Yoix
-	"Object-oriented" -- Yoix
-	Functional -- "Cameleon_(programming_language)"
-	Structured -- Flowgorithm
-	Imperative -- Flowgorithm
-	Functional -- "Halide_(programming_language)"
-	"Parallel model" -- "Halide_(programming_language)"
-	Structured -- Visual_Logic
-	Imperative -- Visual_Logic
-	Procedural -- ColorForth
-	"Stack-oriented language" -- ColorForth
-	Imperative -- "Groovy_(programming_language)"
-	"Object-oriented" -- "Groovy_(programming_language)"
-	"Scripting language" -- "Groovy_(programming_language)"
-	Imperative -- IBM_i_Control_Language
-	"Object-oriented" -- "S2_(programming_language)"
-	Functional -- "A++"
-	Logic -- "A++"
-	Imperative -- "A++"
-	"Object-oriented" -- "A++"
-	"Multi-paradigm language" -- "A++"
-	Structured -- "Oberon-2"
-	Imperative -- "Oberon-2"
-	"Object-oriented" -- "Oberon-2"
-	Modular -- "Oberon-2"
-	Imperative -- Dartmouth_BASIC
-	Array -- "IDL_(programming_language)"
-	Dataflow -- Prograph
-	"Visual language" -- Prograph
-	"Object-oriented" -- Prograph
-	"Multi-paradigm language" -- Prograph
-	Structured -- "RPL_(programming_language)"
-	"Stack-oriented language" -- "RPL_(programming_language)"
-	"Object-oriented" -- "RPL_(programming_language)"
-	Structured -- "S3_(programming_language)"
-	Imperative -- "S3_(programming_language)"
-	Imperative -- Python_for_S60
-	"Object-oriented" -- Python_for_S60
-	"Multi-paradigm language" -- Python_for_S60
-	Functionqal_programming -- Python_for_S60
+	"Markup language
+1" -- "Curl_(programming_language)"
+	"Object-oriented
+125" -- "Curl_(programming_language)"
+	"Multi-paradigm language
+109" -- "Curl_(programming_language)"
+	"Procedural
+77" -- Liberty_BASIC
+	"Event-driven
+17" -- Liberty_BASIC
+	"Dataflow
+6" -- SISAL
+	"Functional
+108" -- SISAL
+	"Imperative
+132" -- SNOBOL
+	"Unstructured
+2" -- SNOBOL
+	"Multi-paradigm language
+109" -- SQL
+	"Declarative
+18" -- SQL
+	"Functional
+108" -- Sather
+	"Object-oriented
+125" -- Sather
+	"Object-oriented
+125" -- Simula
+	"Object-oriented
+125" -- Squeak
+	"Procedural
+77" -- "Turing_(programming_language)"
+	"Object-oriented
+125" -- "Turing_(programming_language)"
+	"Multi-paradigm language
+109" -- "Turing_(programming_language)"
+	"Declarative
+18" -- XSLT
+	"Procedural
+77" -- ALGOL_58
+	"Structured
+68" -- ALGOL_58
+	"Imperative language
+7" -- ALGOL_58
+	"Procedural
+77" -- ALGOL_60
+	"Structured
+68" -- ALGOL_60
+	"Imperative
+132" -- ALGOL_60
+	"Procedural
+77" -- ALGOL_W
+	"Structured
+68" -- ALGOL_W
+	"Imperative
+132" -- ALGOL_W
+	"Object-oriented
+125" -- "Ceylon_(programming_language)"
+	"Constraint logic
+1" -- Constraint_Handling_Rules
+	"Object-oriented language
+4" -- "Cool_(programming_language)"
+	"Functional
+108" -- "F*_(programming_language)"
+	"Imperative
+132" -- "F*_(programming_language)"
+	"Formal verification
+1" -- "F*_(programming_language)"
+	"Multi-paradigm language
+109" -- "F*_(programming_language)"
+	"Object-oriented
+125" -- Generic_Java
+	"Structured
+68" -- "Genie_(programming_language)"
+	"Imperative
+132" -- "Genie_(programming_language)"
+	"Object-oriented
+125" -- "Genie_(programming_language)"
+	"Multi-paradigm language
+109" -- "Genie_(programming_language)"
+	"Functional
+108" -- "Haskell_(programming_language)"
+	"Lazy evaluation
+3" -- "Haskell_(programming_language)"
+	"Non-strict language
+1" -- "Haskell_(programming_language)"
+	"Imperative
+132" -- "Haskell_(programming_language)"
+	"Modular
+13" -- "Haskell_(programming_language)"
+	"Nondeterministic
+1" -- "Orc_(programming_language)"
+	"Concurrent
+15" -- "Orc_(programming_language)"
+	"Procedural
+77" -- "PLEX_(programming_language)"
+	"Imperative
+132" -- "PLEX_(programming_language)"
+	"Functional
+108" -- "Pixie_(programming_language)"
+	"Compiled language
+7" -- "Rust_(programming_language)"
+	"Functional
+108" -- "Rust_(programming_language)"
+	"Structured
+68" -- "Rust_(programming_language)"
+	"Generic
+13" -- "Rust_(programming_language)"
+	"Imperative
+132" -- "Rust_(programming_language)"
+	"Multi-paradigm language
+109" -- "Rust_(programming_language)"
+	"Concurrent
+15" -- "Rust_(programming_language)"
+	"Visual language
+5" -- VSXu
+	"Logic
+15" -- CLACL
+	"Object-oriented
+125" -- Design_By_Numbers
+	"Structured
+68" -- Microsoft_Small_Basic
+	"Imperative
+132" -- Microsoft_Small_Basic
+	"Object-oriented
+125" -- Microsoft_Small_Basic
+	"Functional
+108" -- "Newspeak_(programming_language)"
+	"Object-oriented
+125" -- "Newspeak_(programming_language)"
+	"Functional
+108" -- "Reia_(programming_language)"
+	"Imperative
+132" -- "Reia_(programming_language)"
+	"Multi-paradigm language
+109" -- "Reia_(programming_language)"
+	"Concurrent
+15" -- "Reia_(programming_language)"
+	"Declarative
+18" -- "Reia_(programming_language)"
+	"Object-oriented language
+4" -- "Reia_(programming_language)"
+	"Functional
+108" -- "CPL_(programming_language)"
+	"Procedural
+77" -- "CPL_(programming_language)"
+	"Structured
+68" -- "CPL_(programming_language)"
+	"Imperative language
+7" -- "CPL_(programming_language)"
+	"Multi-paradigm language
+109" -- "CPL_(programming_language)"
+	"Procedural
+77" -- DIBOL
+	"Structured
+68" -- DIBOL
+	"Imperative language
+7" -- DIBOL
+	"Functional
+108" -- Object_Pascal
+	"Structured
+68" -- Object_Pascal
+	"Generic
+13" -- Object_Pascal
+	"Imperative
+132" -- Object_Pascal
+	"Event-driven
+17" -- Object_Pascal
+	"Component-based software engineering
+1" -- Object_Pascal
+	"Object-oriented
+125" -- Object_Pascal
+	"Parallel
+4" -- Obliq
+	"Prototype-based
+12" -- Obliq
+	"Multi-paradigm language
+109" -- Obliq
+	"Structured
+68" -- "RTL/2"
+	"Imperative
+132" -- "RTL/2"
+	"Action language
+1" -- "TLA+"
+	"Functional
+108" -- "Agda_(programming_language)"
+	"Object-oriented
+125" -- "Chapel_(programming_language)"
+	"Functional
+108" -- Extensible_Embeddable_Language
+	"Imperative
+132" -- Extensible_Embeddable_Language
+	"Object-oriented
+125" -- Extensible_Embeddable_Language
+	"Multi-paradigm language
+109" -- Extensible_Embeddable_Language
+	"Scripting language
+16" -- Extensible_Embeddable_Language
+	"Functional
+108" -- "Little_b_(programming_language)"
+	"Object-oriented
+125" -- Solidity
+	"Logic Programming
+1" -- XSB
+	"Multi-paradigm
+8" -- "JScript_.NET"
+	"Structured
+68" -- Open_Programming_Language
+	"Imperative
+132" -- Open_Programming_Language
+	"Embedded system
+1" -- Open_Programming_Language
+	"Structured
+68" -- "SP/k"
+	"Imperative
+132" -- "SP/k"
+	"Logic
+15" -- Aldor
+	"Imperative
+132" -- Aldor
+	"Functional (programming)
+2" -- Aldor
+	"Multi-paradigm language
+109" -- Aldor
+	"Object-oriented (programming)
+2" -- Aldor
+	"Dependent type
+1" -- Aldor
+	"Imperative
+132" -- ColdFusion_Markup_Language
+	"Object-oriented
+125" -- ColdFusion_Markup_Language
+	"Logic
+15" -- "Gödel_(programming_language)"
+	"Declarative
+18" -- "Gödel_(programming_language)"
+	"Procedural
+77" -- Guido_van_Robot
+	"Agent-oriented
+1" -- AgentSpeak
+	"Compiled language
+7" -- "Alef_(programming_language)"
+	"Structured
+68" -- "Alef_(programming_language)"
+	"Concurrent
+15" -- "Alef_(programming_language)"
+	"Functional
+108" -- "Atom_(programming_language)"
+	"Reactive
+2" -- "Atom_(programming_language)"
+	"Synchronous language
+1" -- "Atom_(programming_language)"
+	"Procedural language
+4" -- CHILL
+	"Multi-paradigm language
+109" -- "COLA_(software_architecture)"
+	"Structured
+68" -- COMAL
+	"Multi-paradigm language
+109" -- ChucK
+	"Function-level
+3" -- "FP_(programming_language)"
+	"Procedural
+77" -- FreeBASIC
+	"Object-oriented
+125" -- FreeBASIC
+	"Concurrent computing
+6" -- "Limbo_(programming_language)"
+	"Multi-paradigm language
+109" -- "Nickle_(programming_language)"
+	"Functional
+108" -- "Q_(programming_language_from_Kx_Systems)"
+	"Array
+15" -- "Q_(programming_language_from_Kx_Systems)"
+	"Functional
+108" -- "SASL_(programming_language)"
+	"Multi-paradigm language
+109" -- "SPARK_(programming_language)"
+	"Simulation language
+4" -- "STELLA_(programming_language)"
+	"Visual language
+5" -- "STELLA_(programming_language)"
+	"Imperative
+132" -- "Scratch_(programming_language)"
+	"Event-driven
+17" -- "Scratch_(programming_language)"
+	"Functional
+108" -- Tcl
+	"Procedural
+77" -- Tcl
+	"Imperative
+132" -- Tcl
+	"Event-driven
+17" -- Tcl
+	"Object-oriented
+125" -- Tcl
+	"Multi-paradigm language
+109" -- Tcl
+	"Graphical
+1" -- WebMethods_Flow
+	"Structured
+68" -- WebMethods_Flow
+	"Object-oriented
+125" -- WebMethods_Flow
+	"Functional
+108" -- "XL_(programming_language)"
+	"Imperative
+132" -- "XL_(programming_language)"
+	"Concept
+1" -- "XL_(programming_language)"
+	"Multi-paradigm language
+109" -- "XL_(programming_language)"
+	"Logic
+15" -- Absys
+	"Imperative
+132" -- Standard_ML
+	"Multi-paradigm language
+109" -- Standard_ML
+	"Functional language
+3" -- Standard_ML
+	"Procedural
+77" -- "Babbage_(programming_language)"
+	"Structured
+68" -- "Babbage_(programming_language)"
+	"High-level assembler
+1" -- "Babbage_(programming_language)"
+	"Functional
+108" -- DUP_programming_language
+	"Interpreted language
+2" -- DUP_programming_language
+	"Functional
+108" -- "Epigram_(programming_language)"
+	"Procedural
+77" -- Programming_Language_for_Business
+	"Imperative
+132" -- Programming_Language_for_Business
+	"Functional
+108" -- Concurrent_Euclid
+	"Structured
+68" -- Concurrent_Euclid
+	"Imperative
+132" -- Concurrent_Euclid
+	"Multi-paradigm language
+109" -- Concurrent_Euclid
+	"Procedural
+77" -- "Turing+"
+	"Object-oriented
+125" -- "Turing+"
+	"Multi-paradigm language
+109" -- "Turing+"
+	"Concurrent
+15" -- "Turing+"
+	"Procedural
+77" -- ALGOL
+	"Structured
+68" -- ALGOL
+	"Imperative
+132" -- ALGOL
+	"Procedural
+77" -- "AMOS_(programming_language)"
+	"Imperative
+132" -- "AMOS_(programming_language)"
+	"Functional
+108" -- "APL_(programming_language)"
+	"Structured
+68" -- "APL_(programming_language)"
+	"Array
+15" -- "APL_(programming_language)"
+	"Modular
+13" -- "APL_(programming_language)"
+	"Procedural
+77" -- AWK
+	"Data-driven
+1" -- AWK
+	"Scripting language
+16" -- AWK
+	"Multi-paradigm language
+109" -- "Ada_(programming_language)"
+	"Imperative
+132" -- Assembly_language
+	"Unstructured
+2" -- Assembly_language
+	"Procedural
+77" -- BCPL
+	"Structured
+68" -- BCPL
+	"Imperative
+132" -- BCPL
+	"Structured
+68" -- Brainfuck
+	"Imperative
+132" -- Brainfuck
+	"Esoteric language
+2" -- Brainfuck
+	"Procedural
+77" -- "CLU_(programming_language)"
+	"Object-oriented
+125" -- "CLU_(programming_language)"
+	"Multi-paradigm language
+109" -- "CLU_(programming_language)"
+	"Procedural
+77" -- COBOL
+	"Imperative
+132" -- COBOL
+	"Object-oriented
+125" -- COBOL
+	"Functional
+108" -- Common_Lisp
+	"Procedural
+77" -- Common_Lisp
+	"Generic
+13" -- Common_Lisp
+	"Metaprogramming
+11" -- Common_Lisp
+	"Object-oriented
+125" -- Common_Lisp
+	"Multi-paradigm language
+109" -- Common_Lisp
+	"Reflective
+14" -- Common_Lisp
+	"Procedural
+77" -- Coral_66
+	"Structured
+68" -- Coral_66
+	"Imperative language
+7" -- Coral_66
+	"Functional
+108" -- "Dylan_(programming_language)"
+	"Object-oriented
+125" -- "Dylan_(programming_language)"
+	"Multi-paradigm language
+109" -- "Dylan_(programming_language)"
+	"Object-oriented
+125" -- "Eiffel_(programming_language)"
+	"Functional
+108" -- Emacs_Lisp
+	"Metaprogramming
+11" -- Emacs_Lisp
+	"Reflective
+14" -- Emacs_Lisp
+	"Imperative
+132" -- "Euphoria_(programming_language)"
+	"Procedural
+77" -- "Forth_(programming_language)"
+	"Concatenative language
+3" -- "Forth_(programming_language)"
+	"Reflection (computer science)
+9" -- "Forth_(programming_language)"
+	"Stack-oriented language
+5" -- "Forth_(programming_language)"
+	"Knowledge representation
+3" -- "KRL_(programming_language)"
+	"Functional
+108" -- Kent_Recursive_Calculator
+	"Functional
+108" -- "Lisp_(programming_language)"
+	"Procedural
+77" -- "Lisp_(programming_language)"
+	"Metaprogramming
+11" -- "Lisp_(programming_language)"
+	"Multi-paradigm language
+109" -- "Lisp_(programming_language)"
+	"Reflection (computer science)
+9" -- "Lisp_(programming_language)"
+	"Programming paradigm
+3" -- LiveScript
+	"Functional
+108" -- LiveScript
+	"Object-oriented
+125" -- LiveScript
+	"Functional
+108" -- "Logo_(programming_language)"
+	"Procedural
+77" -- "Logo_(programming_language)"
+	"Educational language
+7" -- "Logo_(programming_language)"
+	"Multi-paradigm language
+109" -- "Logo_(programming_language)"
+	"Reflection (computer science)
+9" -- "Logo_(programming_language)"
+	"Functional
+108" -- "ML_(programming_language)"
+	"Imperative
+132" -- "ML_(programming_language)"
+	"Multi-paradigm language
+109" -- "ML_(programming_language)"
+	"Procedural
+77" -- MUMPS
+	"Imperative
+132" -- "Mary_(programming_language)"
+	"Functional
+108" -- "Mercury_(programming_language)"
+	"Logic
+15" -- "Mercury_(programming_language)"
+	"Object-oriented
+125" -- "Mercury_(programming_language)"
+	"Array
+15" -- Nial
+	"Structured
+68" -- "Oberon_(programming_language)"
+	"Imperative
+132" -- "Oberon_(programming_language)"
+	"Object-oriented
+125" -- "Oberon_(programming_language)"
+	"Modular
+13" -- "Oberon_(programming_language)"
+	"Concurrent language
+5" -- "Occam_(programming_language)"
+	"Functional
+108" -- PHP
+	"Procedural
+77" -- PHP
+	"Imperative
+132" -- PHP
+	"Object-oriented
+125" -- PHP
+	"Reflective
+14" -- PHP
+	"Procedural
+77" -- "PL/I"
+	"Structured
+68" -- "PL/I"
+	"Imperative
+132" -- "PL/I"
+	"Structured
+68" -- "Pascal_(programming_language)"
+	"Imperative
+132" -- "Pascal_(programming_language)"
+	"Procedural
+77" -- PostScript
+	"Stack-based
+1" -- PostScript
+	"Multi-paradigm language
+109" -- PostScript
+	"Logic
+15" -- Prolog
+	"Functional
+108" -- "Python_(programming_language)"
+	"Procedural
+77" -- "Python_(programming_language)"
+	"Imperative
+132" -- "Python_(programming_language)"
+	"Object-oriented
+125" -- "Python_(programming_language)"
+	"Multi-paradigm language
+109" -- "Python_(programming_language)"
+	"Reflective
+14" -- "Python_(programming_language)"
+	"Language oriented
+1" -- Rebol
+	"Functional
+108" -- Rebol
+	"Data exchange language
+1" -- Rebol
+	"Imperative
+132" -- Rebol
+	"Prototype-based
+12" -- Rebol
+	"Functional
+108" -- "Ruby_(programming_language)"
+	"Imperative
+132" -- "Ruby_(programming_language)"
+	"Object-oriented
+125" -- "Ruby_(programming_language)"
+	"Multi-paradigm language
+109" -- "Ruby_(programming_language)"
+	"Reflective
+14" -- "Ruby_(programming_language)"
+	"Scripting language
+16" -- Sed
+	"Object-oriented
+125" -- Smalltalk
+	"Functional
+108" -- "C_Sharp_(programming_language)"
+	"Structured
+68" -- "C_Sharp_(programming_language)"
+	"Generic
+13" -- "C_Sharp_(programming_language)"
+	"Imperative
+132" -- "C_Sharp_(programming_language)"
+	"Event-driven
+17" -- "C_Sharp_(programming_language)"
+	"The Task-based Asynchronous Pattern
+1" -- "C_Sharp_(programming_language)"
+	"Object-oriented
+125" -- "C_Sharp_(programming_language)"
+	"Multi-paradigm language
+109" -- "C_Sharp_(programming_language)"
+	"Reflective
+14" -- "C_Sharp_(programming_language)"
+	"Concurrent computing
+6" -- "C_Sharp_(programming_language)"
+	"Object-oriented
+125" -- "Crystal_(programming_language)"
+	"Multi-paradigm language
+109" -- "Crystal_(programming_language)"
+	"Imperative
+132" -- DIGITAL_Command_Language
+	"Object-oriented
+125" -- "Emerald_(programming_language)"
+	"Functional
+108" -- "Euclid_(programming_language)"
+	"Structured
+68" -- "Euclid_(programming_language)"
+	"Imperative
+132" -- "Euclid_(programming_language)"
+	"Multi-paradigm language
+109" -- "Euclid_(programming_language)"
+	"Functional
+108" -- "F_Sharp_(programming_language)"
+	"Imperative
+132" -- "F_Sharp_(programming_language)"
+	"Metaprogramming
+11" -- "F_Sharp_(programming_language)"
+	"Object-oriented
+125" -- "F_Sharp_(programming_language)"
+	"Multi-paradigm language
+109" -- "F_Sharp_(programming_language)"
+	"Concurrent
+15" -- "F_Sharp_(programming_language)"
+	"Imperative
+132" -- Flow_chart_language
+	"Multi-paradigm language
+109" -- Haxe
+	"Functional
+108" -- "Idris_(programming_language)"
+	"Assembly language
+2" -- Information_Processing_Language
+	"Procedural
+77" -- "Karel_(programming_language)"
+	"Imperative
+132" -- MIVA_Script
+	"Procedural
+77" -- "Oriel_(scripting_language)"
+	"Imperative
+132" -- "Oriel_(scripting_language)"
+	"Event-driven
+17" -- "Snap!_(programming_language)"
+	"Object-oriented
+125" -- "Snap!_(programming_language)"
+	"Educational language
+7" -- "Snap!_(programming_language)"
+	"Protocol (object-oriented)
+1" -- "Swift_(programming_language)"
+	"Functional
+108" -- "Swift_(programming_language)"
+	"Imperative
+132" -- "Swift_(programming_language)"
+	"Block (programming)
+1" -- "Swift_(programming_language)"
+	"Object-oriented
+125" -- "Swift_(programming_language)"
+	"Multi-paradigm language
+109" -- "Swift_(programming_language)"
+	"Query language
+2" -- SPARQL
+	"Object-oriented
+125" -- "Bistro_(programming_language)"
+	"Functional
+108" -- Clojure
+	"Compiled language
+7" -- "Go_(programming_language)"
+	"Structured
+68" -- "Go_(programming_language)"
+	"Imperative
+132" -- "Go_(programming_language)"
+	"Concurrent
+15" -- "Go_(programming_language)"
+	"Prototype-based
+12" -- "Ioke_(programming_language)"
+	"Object-oriented
+125" -- "Ioke_(programming_language)"
+	"Knowledge representation
+3" -- "LOOM_(ontology)"
+	"Functional
+108" -- "R_(programming_language)"
+	"Procedural
+77" -- "R_(programming_language)"
+	"Array
+15" -- "R_(programming_language)"
+	"Imperative
+132" -- "R_(programming_language)"
+	"Object-oriented
+125" -- "R_(programming_language)"
+	"Multi-paradigm language
+109" -- "R_(programming_language)"
+	"Reflective
+14" -- "R_(programming_language)"
+	"Procedural
+77" -- "EC_(programming_language)"
+	"Generic
+13" -- "EC_(programming_language)"
+	"Object-oriented
+125" -- "EC_(programming_language)"
+	"Multi-paradigm language
+109" -- "EC_(programming_language)"
+	"Functional
+108" -- "Elixir_(programming_language)"
+	"Multi-paradigm language
+109" -- "Elixir_(programming_language)"
+	"Concurrent
+15" -- "Elixir_(programming_language)"
+	"Distributed
+5" -- "Elixir_(programming_language)"
+	"Process-oriented
+1" -- "Elixir_(programming_language)"
+	"Dataflow
+6" -- "Joule_(programming_language)"
+	"Distributed computing
+2" -- "Joule_(programming_language)"
+	"Object-oriented
+125" -- "Joule_(programming_language)"
+	"Multi-paradigm language
+109" -- "Joule_(programming_language)"
+	"Functional
+108" -- Cadence_SKILL
+	"Object-oriented
+125" -- Cadence_SKILL
+	"Structured
+68" -- "Joyce_(programming_language)"
+	"Concurrent language
+5" -- "Joyce_(programming_language)"
+	"Imperative
+132" -- "Joyce_(programming_language)"
+	"Procedural
+77" -- "Object-Oriented_Turing"
+	"Object-oriented
+125" -- "Object-Oriented_Turing"
+	"Multi-paradigm language
+109" -- "Object-Oriented_Turing"
+	"Concurrent
+15" -- "Object-Oriented_Turing"
+	"Procedural
+77" -- Rexx
+	"Structured
+68" -- Rexx
+	"Multi-paradigm language
+109" -- Rexx
+	"Imperative
+132" -- "Script.NET"
+	"Metaprogramming
+11" -- "Script.NET"
+	"Scripting language
+16" -- "Script.NET"
+	"Functional
+108" -- XQuery
+	"Modular
+13" -- XQuery
+	"Declarative
+18" -- XQuery
+	"Imperative
+132" -- Open_Roberta
+	"Event-driven
+17" -- Open_Roberta
+	"Array
+15" -- "A+_(programming_language)"
+	"Functional
+108" -- Algebraic_Logic_Functional_programming_language
+	"Logic
+15" -- Algebraic_Logic_Functional_programming_language
+	"Multi-paradigm language
+109" -- Algebraic_Logic_Functional_programming_language
+	"Functional
+108" -- "Opa_(programming_language)"
+	"Imperative
+132" -- "Opa_(programming_language)"
+	"Multi-paradigm language
+109" -- "Opa_(programming_language)"
+	"Functional
+108" -- Abstract_State_Machine_Language
+	"Imperative
+132" -- "Asymptote_(vector_graphics_language)"
+	"Typesetting
+2" -- "Asymptote_(vector_graphics_language)"
+	"Aspect-oriented
+3" -- "E_(verification_language)"
+	"Functional
+108" -- "Elm_(programming_language)"
+	"Functional
+108" -- Itk
+	"Imperative
+132" -- Itk
+	"Event-driven
+17" -- Itk
+	"Object-oriented
+125" -- Itk
+	"Multi-paradigm language
+109" -- Itk
+	"Functional
+108" -- "Kojo_(programming_language)"
+	"Object-oriented
+125" -- "Kojo_(programming_language)"
+	"Template engine (web)
+1" -- Haml
+	"Functional
+108" -- Incr_Tcl
+	"Imperative
+132" -- Incr_Tcl
+	"Event-driven
+17" -- Incr_Tcl
+	"Object-oriented
+125" -- Incr_Tcl
+	"Multi-paradigm language
+109" -- Incr_Tcl
+	"Object-oriented
+125" -- "Cobra_(programming_language)"
+	"Multi-paradigm language
+109" -- "Cobra_(programming_language)"
+	"Object-oriented
+125" -- Judoscript
+	"Scripting language
+16" -- Judoscript
+	"Imperative
+132" -- MiniD
+	"Object-oriented
+125" -- MiniD
+	"Multi-paradigm language
+109" -- MiniD
+	"Multi-paradigm
+8" -- Scientific_Vector_Language
+	"Object-oriented
+125" -- Ateji_PX
+	"Pi calculus
+1" -- Ateji_PX
+	"Functional
+108" -- CoffeeScript
+	"Imperative
+132" -- CoffeeScript
+	"Prototype-based
+12" -- CoffeeScript
+	"Multi-paradigm
+8" -- CoffeeScript
+	"Scripting language
+16" -- CoffeeScript
+	"Imperative
+132" -- "Mirah_(programming_language)"
+	"Object-oriented language
+4" -- "Mirah_(programming_language)"
+	"Object-oriented
+125" -- OptimJ
+	"Reactive
+2" -- QML
+	"Multi-paradigm
+8" -- QML
+	"Scripting language
+16" -- QML
+	"Declarative
+18" -- QML
+	"Structured
+68" -- SuperPascal
+	"Imperative
+132" -- SuperPascal
+	"Concurrent computing
+6" -- SuperPascal
+	"Real-time computing
+1" -- "XC_(programming_language)"
+	"Parallel
+4" -- "XC_(programming_language)"
+	"Imperative
+132" -- "XC_(programming_language)"
+	"Concurrent
+15" -- "XC_(programming_language)"
+	"Distributed
+5" -- "XC_(programming_language)"
+	"Multi-core processor
+1" -- "XC_(programming_language)"
+	"Fourth-generation language
+1" -- ActiveVFP
+	"Procedural
+77" -- ActiveVFP
+	"Object-oriented
+125" -- ActiveVFP
+	"Interpreted language
+2" -- "Ezhil_(programming_language)"
+	"Structured
+68" -- "Ezhil_(programming_language)"
+	"Imperative
+132" -- "Ezhil_(programming_language)"
+	"Distributed
+5" -- "Join-pattern"
+	"Concurrent computing
+6" -- "Join-pattern"
+	"Procedural
+77" -- M_Sharp
+	"Structured
+68" -- M_Sharp
+	"Event-driven
+17" -- M_Sharp
+	"Metaprogramming
+11" -- M_Sharp
+	"Object-oriented
+125" -- M_Sharp
+	"Multi-paradigm language
+109" -- M_Sharp
+	"Functional
+108" -- MexScript
+	"Structured
+68" -- MexScript
+	"End-user development
+1" -- MexScript
+	"Domain-specific language
+3" -- MexScript
+	"Compiled language
+7" -- "ParaSail_(programming_language)"
+	"Structured
+68" -- "ParaSail_(programming_language)"
+	"Imperative
+132" -- "ParaSail_(programming_language)"
+	"Object-oriented
+125" -- "ParaSail_(programming_language)"
+	"Concurrent
+15" -- "ParaSail_(programming_language)"
+	"Design by contract
+1" -- Praspel
+	"Functional
+108" -- "Qalb_(programming_language)"
+	"Scripting Language
+1" -- RiscLua
+	"Imperative
+132" -- SAMPL
+	"Multi-paradigm language
+109" -- SAMPL
+	"Declarative
+18" -- SAMPL
+	"Functional
+108" -- Xtend
+	"Imperative
+132" -- Xtend
+	"Object-oriented
+125" -- Xtend
+	"Imperative
+132" -- PeopleCode
+	"Object-oriented
+125" -- PeopleCode
+	"Multi-paradigm language
+109" -- PeopleCode
+	"Functional
+108" -- JSONiq
+	"Modular
+13" -- JSONiq
+	"Declarative
+18" -- JSONiq
+	"Functional
+108" -- UCBLogo
+	"Procedural
+77" -- UCBLogo
+	"Educational language
+7" -- UCBLogo
+	"Multi-paradigm language
+109" -- UCBLogo
+	"Reflection (computer science)
+9" -- UCBLogo
+	"Object-oriented
+125" -- Umple
+	"Object oriented language
+1" -- "Dolittle_(programming_language)"
+	"Multi-paradigm language
+109" -- "Dolittle_(programming_language)"
+	"Functional
+108" -- "ATS_(programming_language)"
+	"Imperative
+132" -- "ATS_(programming_language)"
+	"Multi-paradigm language
+109" -- "ATS_(programming_language)"
+	"Functional
+108" -- "Alice_(programming_language)"
+	"Concurrent language
+5" -- "Alice_(programming_language)"
+	"Imperative
+132" -- "Alice_(programming_language)"
+	"Multi-paradigm language
+109" -- "Alice_(programming_language)"
+	"Distributed
+5" -- "Alice_(programming_language)"
+	"Logic
+15" -- "Alma-0"
+	"Constraint
+2" -- "Alma-0"
+	"Imperative
+132" -- "Alma-0"
+	"Multi-paradigm language
+109" -- "Alma-0"
+	"Dataflow
+6" -- CAL_Actor_Language
+	"Structured
+68" -- "Charm_(programming_language)"
+	"Functional
+108" -- "Clean_(programming_language)"
+	"Structured
+68" -- Component_Pascal
+	"Imperative
+132" -- Component_Pascal
+	"Object-oriented
+125" -- Component_Pascal
+	"Modular
+13" -- Component_Pascal
+	"Declarative
+18" -- "ECL_(data-centric_programming_language)"
+	"Data-centric language
+1" -- "ECL_(data-centric_programming_language)"
+	"Structured
+68" -- "ECL_(data-centric_programming_language)"
+	"Array
+15" -- "ELI_(programming_language)"
+	"Functional
+108" -- "Escher_(programming_language)"
+	"Logic
+15" -- "Escher_(programming_language)"
+	"Declarative
+18" -- "Escher_(programming_language)"
+	"Functional
+108" -- "FL_(programming_language)"
+	"Function-level
+3" -- "FL_(programming_language)"
+	"Prototype-based
+12" -- "Io_(programming_language)"
+	"Object-oriented
+125" -- "Io_(programming_language)"
+	"Esoteric language
+2" -- LOLCODE
+	"Functional
+108" -- "LPC_(programming_language)"
+	"Procedural
+77" -- "LPC_(programming_language)"
+	"Prototype-based
+12" -- "LPC_(programming_language)"
+	"Object-oriented
+125" -- "LPC_(programming_language)"
+	"Multi-paradigm language
+109" -- "LPC_(programming_language)"
+	"Class-based
+1" -- "Objective-C"
+	"Object-oriented
+125" -- "Objective-C"
+	"Reflection (computer science)
+9" -- "Objective-C"
+	"Structural Equation Modeling
+1" -- OpenMx
+	"Procedural
+77" -- "PL/C"
+	"Structured
+68" -- "PL/C"
+	"Imperative
+132" -- "PL/C"
+	"Declarative Language
+1" -- "Pan_(programming_language)"
+	"Procedural
+77" -- Profile_Scripting_Language
+	"Object-oriented
+125" -- "TOM_(object-oriented_programming_language)"
+	"Natural language
+1" -- AppleScript
+	"Scripting language
+16" -- AppleScript
+	"Functional
+108" -- "C++"
+	"Procedural
+77" -- "C++"
+	"Generic
+13" -- "C++"
+	"Object-oriented
+125" -- "C++"
+	"Multi-paradigm language
+109" -- "C++"
+	"Imperative
+132" -- "FLOW-MATIC"
+	"Procedural
+77" -- HyperTalk
+	"Functional
+108" -- "J_(programming_language)"
+	"Array
+15" -- "J_(programming_language)"
+	"Function-level
+3" -- "J_(programming_language)"
+	"Tacit
+1" -- "J_(programming_language)"
+	"Prototype-based
+12" -- NewtonScript
+	"Object-oriented
+125" -- NewtonScript
+	"Procedural
+77" -- "Plankalkül"
+	"Procedural
+77" -- PureBasic
+	"Structured
+68" -- PureBasic
+	"Imperative
+132" -- PureBasic
+	"Structured
+68" -- Verilog
+	"Scripting language
+16" -- Chomski
+	"Multi-paradigm language
+109" -- "Fantom_(programming_language)"
+	"Imperative
+132" -- GrGen
+	"Multi-paradigm language
+109" -- GrGen
+	"Declarative
+18" -- GrGen
+	"Object oriented
+1" -- GrGen
+	"Functional
+108" -- "Objective-J"
+	"Imperative
+132" -- "Objective-J"
+	"Multi-paradigm
+8" -- "Objective-J"
+	"Object-oriented
+125" -- "Objective-J"
+	"Reflection (computer science)
+9" -- "Objective-J"
+	"Scripting language
+16" -- "Objective-J"
+	"Imperative
+132" -- PCASTL
+	"Reflective
+14" -- PCASTL
+	"Multi-paradigm language
+109" -- PLEXIL
+	"Object-oriented
+125" -- Pnuts
+	"Scripting language
+16" -- Pnuts
+	"Visual language
+5" -- Vvvv
+	"Imperative
+132" -- Sinclair_BASIC
+	"Procedural
+77" -- QBasic
+	"Object-capability model
+1" -- "Joe-E"
+	"Functional
+108" -- PicoLisp
+	"Procedural
+77" -- PicoLisp
+	"Object-oriented
+125" -- PicoLisp
+	"Reflective
+14" -- PicoLisp
+	"Declarative
+18" -- PicoLisp
+	"Meta
+1" -- PicoLisp
+	"Procedural
+77" -- "ABC_(programming_language)"
+	"Structured
+68" -- "ABC_(programming_language)"
+	"Imperative
+132" -- "ABC_(programming_language)"
+	"Multi-paradigm language
+109" -- "ABC_(programming_language)"
+	"Functional
+108" -- ACL2
+	"Metaprogramming
+11" -- ACL2
+	"Imperative
+132" -- "CMS-2_(programming_language)"
+	"Functional
+108" -- ECMAScript
+	"Imperative
+132" -- ECMAScript
+	"Prototype-based
+12" -- ECMAScript
+	"Multi-paradigm
+8" -- ECMAScript
+	"Procedural
+77" -- "Euler_(programming_language)"
+	"Structured
+68" -- "Euler_(programming_language)"
+	"Imperative
+132" -- "Euler_(programming_language)"
+	"Functional
+108" -- "Factor_(programming_language)"
+	"Concatenative language
+3" -- "Factor_(programming_language)"
+	"Multi-paradigm language
+109" -- "Factor_(programming_language)"
+	"Stack-oriented language
+5" -- "Factor_(programming_language)"
+	"Multi-paradigm language
+109" -- "Hop_(software)"
+	"Multi-paradigm language
+109" -- IBM_RPG
+	"Concurrent constraint logic
+2" -- "Janus_(concurrent_constraint_programming_language)"
+	"Reversible computing
+1" -- "Janus_(time-reversible_computing_programming_language)"
+	"Imperative
+132" -- "Janus_(time-reversible_computing_programming_language)"
+	"Knowledge representation
+3" -- KM_programming_language
+	"Imperative
+132" -- "MAD_(programming_language)"
+	"Functional
+108" -- "Miranda_(programming_language)"
+	"Lazy evaluation
+3" -- "Miranda_(programming_language)"
+	"Declarative
+18" -- "Miranda_(programming_language)"
+	"Structured
+68" -- "Nu_(programming_language)"
+	"Imperative
+132" -- "Nu_(programming_language)"
+	"Object-oriented
+125" -- "Nu_(programming_language)"
+	"Functional
+108" -- OCaml
+	"Imperative
+132" -- OCaml
+	"Object-oriented
+125" -- OCaml
+	"Multi-paradigm language
+109" -- OCaml
+	"Functional
+108" -- "Orwell_(programming_language)"
+	"Lazy evaluation
+3" -- "Orwell_(programming_language)"
+	"Functional
+108" -- "Oz_(programming_language)"
+	"Logic
+15" -- "Oz_(programming_language)"
+	"Concurrent language
+5" -- "Oz_(programming_language)"
+	"Constraint
+2" -- "Oz_(programming_language)"
+	"Imperative
+132" -- "Oz_(programming_language)"
+	"Object-oriented
+125" -- "Oz_(programming_language)"
+	"Multi-paradigm language
+109" -- "Oz_(programming_language)"
+	"Distributed
+5" -- "Oz_(programming_language)"
+	"Procedural
+77" -- "Pico_(programming_language)"
+	"Reflection (computer science)
+9" -- "Pico_(programming_language)"
+	"Functional
+108" -- "Pike_(programming_language)"
+	"Procedural
+77" -- "Pike_(programming_language)"
+	"Object-oriented
+125" -- "Pike_(programming_language)"
+	"Multi-paradigm language
+109" -- "Pike_(programming_language)"
+	"Functional
+108" -- "Racket_(programming_language)"
+	"Logic
+15" -- "Racket_(programming_language)"
+	"Procedural
+77" -- "Racket_(programming_language)"
+	"Metaprogramming
+11" -- "Racket_(programming_language)"
+	"Object-oriented
+125" -- "Racket_(programming_language)"
+	"Modular
+13" -- "Racket_(programming_language)"
+	"Multi-paradigm language
+109" -- "Racket_(programming_language)"
+	"Reflection (computer science)
+9" -- "Racket_(programming_language)"
+	"Structured
+68" -- "Raptor_(programming_language)"
+	"Imperative
+132" -- "Raptor_(programming_language)"
+	"Imperative
+132" -- Rc
+	"Pipeline
+1" -- Rc
+	"Functional
+108" -- SAC_programming_language
+	"Array
+15" -- SAC_programming_language
+	"Actor model
+1" -- "SALSA_(programming_language)"
+	"Structured
+68" -- SystemVerilog
+	"Object-oriented
+125" -- SystemVerilog
+	"Functional
+108" -- TypeScript
+	"Structured
+68" -- TypeScript
+	"Generic
+13" -- TypeScript
+	"Imperative
+132" -- TypeScript
+	"Object-oriented
+125" -- TypeScript
+	"Multi-paradigm language
+109" -- TypeScript
+	"Scripting language
+16" -- TypeScript
+	"Procedural
+77" -- "Unicon_(programming_language)"
+	"Object-oriented
+125" -- "Unicon_(programming_language)"
+	"Programming paradigm
+3" -- "Vala_(programming_language)"
+	"Structured
+68" -- "Vala_(programming_language)"
+	"Imperative
+132" -- "Vala_(programming_language)"
+	"Object-oriented
+125" -- "Vala_(programming_language)"
+	"Multi-paradigm language
+109" -- Visual_Basic_for_Applications
+	"Programming paradigm
+3" -- Wolfram_Language
+	"Functional
+108" -- Wolfram_Language
+	"Procedural
+77" -- Wolfram_Language
+	"Array
+15" -- Wolfram_Language
+	"Term-rewriting
+1" -- Wolfram_Language
+	"Procedural language
+4" -- XBLite
+	"Structured
+68" -- ABAP
+	"Imperative
+132" -- ABAP
+	"Object-oriented
+125" -- ABAP
+	"Concurrent language
+5" -- ALGOL_68
+	"Imperative
+132" -- ALGOL_68
+	"Multi-paradigm language
+109" -- ALGOL_68
+	"Object-oriented
+125" -- "BETA_(programming_language)"
+	"Dataflow
+6" -- CMS_Pipelines
+	"Imperative
+132" -- DBase
+	"Declarative
+18" -- DBase
+	"Compiled language
+7" -- "D_(programming_language)"
+	"Functional
+108" -- "D_(programming_language)"
+	"Procedural
+77" -- "D_(programming_language)"
+	"Generic
+13" -- "D_(programming_language)"
+	"Object-oriented
+125" -- "D_(programming_language)"
+	"Multi-paradigm language
+109" -- "D_(programming_language)"
+	"Concurrent
+15" -- "D_(programming_language)"
+	"Functional
+108" -- "Joy_(programming_language)"
+	"Concatenative language
+3" -- "Joy_(programming_language)"
+	"Multi-paradigm language
+109" -- "Joy_(programming_language)"
+	"Stack-oriented language
+5" -- "Joy_(programming_language)"
+	"Procedural
+77" -- MIRC_scripting_language
+	"Event-driven
+17" -- MIRC_scripting_language
+	"Declarative
+18" -- Mizar_system
+	"Procedural
+77" -- "Modula-3"
+	"Structured
+68" -- "Modula-3"
+	"Imperative
+132" -- "Modula-3"
+	"Modular
+13" -- "Modula-3"
+	"Generic
+13" -- "Pizza_(programming_language)"
+	"Algebraic types
+1" -- "Pizza_(programming_language)"
+	"Functional
+108" -- Polyphonic_C_Sharp
+	"Structured
+68" -- Polyphonic_C_Sharp
+	"Imperative
+132" -- Polyphonic_C_Sharp
+	"Event-driven
+17" -- Polyphonic_C_Sharp
+	"Object-oriented
+125" -- Polyphonic_C_Sharp
+	"Multi-paradigm language
+109" -- Polyphonic_C_Sharp
+	"Concurrent
+15" -- Polyphonic_C_Sharp
+	"Object-oriented
+125" -- "Processing_(programming_language)"
+	"Prototype-oriented
+1" -- TADS
+	"Domain-specific language
+3" -- TADS
+	"Functional
+108" -- XOTcl
+	"Imperative
+132" -- XOTcl
+	"Event-driven
+17" -- XOTcl
+	"Object-oriented
+125" -- XOTcl
+	"Multi-paradigm language
+109" -- XOTcl
+	"Imperative
+132" -- AMPL
+	"Multi-paradigm language
+109" -- AMPL
+	"Declarative
+18" -- AMPL
+	"Object-oriented analysis and design
+1" -- "Boo_(programming_language)"
+	"Functional
+108" -- "Cω"
+	"Structured
+68" -- "Cω"
+	"Imperative
+132" -- "Cω"
+	"Event-driven
+17" -- "Cω"
+	"Object-oriented
+125" -- "Cω"
+	"Multi-paradigm language
+109" -- "Cω"
+	"Multi-paradigm
+8" -- Perl_6
+	"Imperative
+132" -- "C--"
+	"Purely functional
+1" -- "Charity_(programming_language)"
+	"Object-oriented
+125" -- "E_(programming_language)"
+	"Multi-paradigm language
+109" -- "E_(programming_language)"
+	"Message passing
+1" -- "E_(programming_language)"
+	"Array
+15" -- "F-Script_(programming_language)"
+	"Object-oriented
+125" -- "F-Script_(programming_language)"
+	"Multi-paradigm language
+109" -- "F-Script_(programming_language)"
+	"Functional
+108" -- "K_(programming_language)"
+	"Array
+15" -- "K_(programming_language)"
+	"Declarative
+18" -- Modelica
+	"Procedural
+77" -- SETL
+	"Structured
+68" -- SETL
+	"Imperative
+132" -- SETL
+	"Object-oriented
+125" -- SETL
+	"Multi-paradigm language
+109" -- SETL
+	"Imperative
+132" -- Standard_ML_of_New_Jersey
+	"Multi-paradigm language
+109" -- Standard_ML_of_New_Jersey
+	"Functional language
+3" -- Standard_ML_of_New_Jersey
+	"Object-oriented
+125" -- "X10_(programming_language)"
+	"Array
+15" -- "ZPL_(programming_language)"
+	"Imperative
+132" -- MetaPost
+	"Typesetting
+2" -- MetaPost
+	"Imperative
+132" -- MSX_BASIC
+	"Imperative
+132" -- "Whiley_(programming_language)"
+	"Functional language
+3" -- "Whiley_(programming_language)"
+	"Functional
+108" -- AntLang
+	"Array
+15" -- AntLang
+	"Prototype-based
+12" -- "Citrine_(programming_language)"
+	"Object-oriented
+125" -- "Citrine_(programming_language)"
+	"Functional
+108" -- Ebda3
+	"Procedural
+77" -- Ebda3
+	"Imperative
+132" -- Ebda3
+	"Object-oriented
+125" -- Ebda3
+	"Multi-paradigm language
+109" -- Ebda3
+	"Reflective
+14" -- Ebda3
+	"Compiled language
+7" -- "P4_(programming_language)"
+	"Imperative
+132" -- "P4_(programming_language)"
+	"Domain-specific language
+3" -- "P4_(programming_language)"
+	"Functional
+108" -- "PascalABC.NET"
+	"Procedural
+77" -- "PascalABC.NET"
+	"Generic
+13" -- "PascalABC.NET"
+	"Object-oriented
+125" -- "PascalABC.NET"
+	"Multi-paradigm language
+109" -- "PascalABC.NET"
+	"Functional (programming)
+2" -- "A♯_(Axiom)"
+	"Multi-paradigm language
+109" -- "A♯_(Axiom)"
+	"Object-oriented (programming)
+2" -- "A♯_(Axiom)"
+	"Prototype-based
+12" -- Lisaac
+	"Object-oriented
+125" -- Lisaac
+	"Structured
+68" -- Speedcoding
+	"Generic
+13" -- Speedcoding
+	"Object-oriented
+125" -- Speedcoding
+	"Procedural
+77" -- NetRexx
+	"Structured
+68" -- NetRexx
+	"Object-oriented
+125" -- NetRexx
+	"Multi-paradigm language
+109" -- NetRexx
+	"Functional
+108" -- "Extempore_(software)"
+	"Multi-paradigm language
+109" -- "Extempore_(software)"
+	"Distributed computing
+2" -- "Gemstone_(database)"
+	"Object database
+1" -- "Gemstone_(database)"
+	"Distributed cache
+1" -- "Gemstone_(database)"
+	"Object-oriented
+125" -- "Gemstone_(database)"
+	"In-memory database
+1" -- "Gemstone_(database)"
+	"In-Memory Processing
+1" -- "Gemstone_(database)"
+	"Functional
+108" -- "Impromptu_(programming_environment)"
+	"Multi-paradigm language
+109" -- "Impromptu_(programming_environment)"
+	"Structured
+68" -- "Neko_(programming_language)"
+	"Prototype-based
+12" -- "Neko_(programming_language)"
+	"Object-oriented
+125" -- "Neko_(programming_language)"
+	"Scripting language
+16" -- "Neko_(programming_language)"
+	"Compiled language
+7" -- "Nim_(programming_language)"
+	"Procedural
+77" -- "Nim_(programming_language)"
+	"Imperative
+132" -- "Nim_(programming_language)"
+	"Object-oriented
+125" -- "Nim_(programming_language)"
+	"Multi-paradigm language
+109" -- "Nim_(programming_language)"
+	"Concurrent
+15" -- "Nim_(programming_language)"
+	"Array
+15" -- Perl_Data_Language
+	"Symbolic
+1" -- "Red_(programming_language)"
+	"Functional
+108" -- "Red_(programming_language)"
+	"Imperative
+132" -- "Red_(programming_language)"
+	"Multi-paradigm language
+109" -- "SQL/PSM"
+	"Structured
+68" -- Seed7
+	"Generic
+13" -- Seed7
+	"Imperative
+132" -- Seed7
+	"Object-oriented
+125" -- Seed7
+	"Extensible
+1" -- Seed7
+	"Multi-paradigm language
+109" -- Seed7
+	"Reflective
+14" -- Seed7
+	"Parallel
+4" -- "C*"
+	"Imperative
+132" -- "C*"
+	"Object-oriented
+125" -- "C*"
+	"Multi-paradigm language
+109" -- "C*"
+	"Functional
+108" -- EuLisp
+	"Procedural
+77" -- EuLisp
+	"Metaprogramming
+11" -- EuLisp
+	"Object-oriented
+125" -- EuLisp
+	"Multi-paradigm language
+109" -- EuLisp
+	"Functional
+108" -- "NIL_(programming_language)"
+	"Procedural
+77" -- "NIL_(programming_language)"
+	"Multi-paradigm language
+109" -- "NIL_(programming_language)"
+	"Simulation language
+4" -- NetLogo
+	"Procedural
+77" -- NetLogo
+	"Computer simulation
+2" -- NetLogo
+	"Educational language
+7" -- NetLogo
+	"Multi-paradigm language
+109" -- NetLogo
+	"Simulation language
+4" -- StarLogo
+	"Procedural
+77" -- StarLogo
+	"Computer simulation
+2" -- StarLogo
+	"Educational language
+7" -- StarLogo
+	"Multi-paradigm language
+109" -- StarLogo
+	"Procedural
+77" -- FutureBASIC
+	"Object-oriented
+125" -- GNU_E
+	"Structured
+68" -- Monkey_X
+	"Generic
+13" -- Monkey_X
+	"Imperative
+132" -- Monkey_X
+	"Object-oriented
+125" -- Monkey_X
+	"Modular
+13" -- Monkey_X
+	"Multi-paradigm language
+109" -- Monkey_X
+	"Reflection (computer science)
+9" -- Monkey_X
+	"Concurrent computing
+6" -- Monkey_X
+	"Functional
+108" -- Nemerle
+	"Imperative
+132" -- Nemerle
+	"Metaprogramming
+11" -- Nemerle
+	"Object-oriented
+125" -- Nemerle
+	"Multi-paradigm language
+109" -- Nemerle
+	"Functional
+108" -- Urbiscript
+	"Procedural
+77" -- Urbiscript
+	"Imperative
+132" -- Urbiscript
+	"Event-driven
+17" -- Urbiscript
+	"Object-oriented
+125" -- Urbiscript
+	"Multi-paradigm language
+109" -- Urbiscript
+	"Reflective
+14" -- Urbiscript
+	"Functional
+108" -- Oaklisp
+	"Procedural
+77" -- Oaklisp
+	"Multi-paradigm language
+109" -- Oaklisp
+	"Object-oriented
+125" -- Oaklisp
+	"Object-oriented
+125" -- Object_Oberon
+	"Imperative
+132" -- Vilnius_BASIC
+	"Algorithmic_programming
+1" -- Vilnius_BASIC
+	"Logic
+15" -- Logtalk
+	"Procedural language
+4" -- Basic4GL
+	"Procedural language
+4" -- Brutus2D
+	"Aspect-oriented
+3" -- GluonJ
+	"Aspect-oriented
+3" -- AspectJ
+	"Functional
+108" -- ISWIM
+	"Imperative language
+7" -- ISWIM
+	"Imperative
+132" -- "MATH-MATIC"
+	"Object-oriented
+125" -- BeanShell
+	"Scripting language
+16" -- BeanShell
+	"Procedural
+77" -- "F_(programming_language)"
+	"Modular
+13" -- "F_(programming_language)"
+	"Dataflow
+6" -- "Lucid_(programming_language)"
+	"Structured
+68" -- "P′′"
+	"Imperative
+132" -- "P′′"
+	"Functional
+108" -- "T_(programming_language)"
+	"Imperative
+132" -- "T_(programming_language)"
+	"Metaprogramming
+11" -- "T_(programming_language)"
+	"Object-oriented
+125" -- "T_(programming_language)"
+	"Multi-paradigm language
+109" -- "T_(programming_language)"
+	"Functional
+108" -- "Ciao_(programming_language)"
+	"Logic
+15" -- "Ciao_(programming_language)"
+	"Object-oriented
+125" -- "Ciao_(programming_language)"
+	"Modular
+13" -- "Ciao_(programming_language)"
+	"Assembly language
+2" -- "Jasmin_(software)"
+	"Structured
+68" -- "Plus_(programming_language)"
+	"Imperative
+132" -- "Plus_(programming_language)"
+	"Expression-oriented language
+1" -- WebAssembly
+	"Parallel
+4" -- "*Lisp"
+	"Functional
+108" -- "Harbour_(software)"
+	"Imperative
+132" -- "Harbour_(software)"
+	"Object-oriented
+125" -- "Harbour_(software)"
+	"Multi-paradigm language
+109" -- "Harbour_(software)"
+	"Reflective
+14" -- "Harbour_(software)"
+	"Object-oriented
+125" -- SK8
+	"Query language
+2" -- XPath
+	"Procedural
+77" -- CGOL
+	"Structured
+68" -- CGOL
+	"Imperative language
+7" -- CGOL
+	"Concurrent computing
+6" -- Newsqueak
+	"Multi-paradigm language
+109" -- ".QL"
+	"Logic language
+1" -- ".QL"
+	"Object-oriented language
+4" -- ".QL"
+	"Functional
+108" -- "Scala_(programming_language)"
+	"Imperative
+132" -- "Scala_(programming_language)"
+	"Object-oriented
+125" -- "Scala_(programming_language)"
+	"Multi-paradigm language
+109" -- "Scala_(programming_language)"
+	"Concurrent
+15" -- "Scala_(programming_language)"
+	"Functional
+108" -- Spec_Sharp
+	"Structured
+68" -- Spec_Sharp
+	"Imperative
+132" -- Spec_Sharp
+	"Event-driven
+17" -- Spec_Sharp
+	"Object-oriented
+125" -- Spec_Sharp
+	"Multi-paradigm language
+109" -- Spec_Sharp
+	"Design by Contract
+1" -- Spec_Sharp
+	"Procedural
+77" -- "FACT_(computer_language)"
+	"Imperative
+132" -- "FACT_(computer_language)"
+	"Procedural
+77" -- JOVIAL
+	"Structured
+68" -- JOVIAL
+	"Imperative language
+7" -- JOVIAL
+	"Prototype-based
+12" -- "Etoys_(programming_language)"
+	"Object-oriented
+125" -- "Etoys_(programming_language)"
+	"Educational language
+7" -- "Etoys_(programming_language)"
+	"Logic
+15" -- Fril
+	"Functional
+108" -- "Pure_(programming_language)"
+	"Rewriting
+1" -- "Pure_(programming_language)"
+	"Declarative
+18" -- "Pure_(programming_language)"
+	"Procedural
+77" -- Join_Java
+	"Reflective
+14" -- Join_Java
+	"Event-driven
+17" -- "Sense_(programming)"
+	"Object-oriented
+125" -- "Sense_(programming)"
+	"Educational language
+7" -- "Sense_(programming)"
+	"Functional
+108" -- "Squirrel_(programming_language)"
+	"Imperative
+132" -- "Squirrel_(programming_language)"
+	"Object-oriented
+125" -- "Squirrel_(programming_language)"
+	"Multi-paradigm language
+109" -- "Squirrel_(programming_language)"
+	"Scripting language
+16" -- "Squirrel_(programming_language)"
+	"Concurrent constraint logic
+2" -- ToonTalk
+	"Simulation language
+4" -- VisSim
+	"Visual language
+5" -- VisSim
+	"Modular
+13" -- VisSim
+	"Procedural
+77" -- Yoix
+	"Multi-paradigm
+8" -- Yoix
+	"Object-oriented
+125" -- Yoix
+	"Functional
+108" -- "Cameleon_(programming_language)"
+	"Structured
+68" -- Flowgorithm
+	"Imperative
+132" -- Flowgorithm
+	"Functional
+108" -- "Halide_(programming_language)"
+	"Parallel model
+1" -- "Halide_(programming_language)"
+	"Structured
+68" -- Visual_Logic
+	"Imperative
+132" -- Visual_Logic
+	"Procedural
+77" -- ColorForth
+	"Stack-oriented language
+5" -- ColorForth
+	"Imperative
+132" -- "Groovy_(programming_language)"
+	"Object-oriented
+125" -- "Groovy_(programming_language)"
+	"Scripting language
+16" -- "Groovy_(programming_language)"
+	"Imperative
+132" -- IBM_i_Control_Language
+	"Object-oriented
+125" -- "S2_(programming_language)"
+	"Functional
+108" -- "A++"
+	"Logic
+15" -- "A++"
+	"Imperative
+132" -- "A++"
+	"Object-oriented
+125" -- "A++"
+	"Multi-paradigm language
+109" -- "A++"
+	"Structured
+68" -- "Oberon-2"
+	"Imperative
+132" -- "Oberon-2"
+	"Object-oriented
+125" -- "Oberon-2"
+	"Modular
+13" -- "Oberon-2"
+	"Imperative
+132" -- Dartmouth_BASIC
+	"Array
+15" -- "IDL_(programming_language)"
+	"Dataflow
+6" -- Prograph
+	"Visual language
+5" -- Prograph
+	"Object-oriented
+125" -- Prograph
+	"Multi-paradigm language
+109" -- Prograph
+	"Structured
+68" -- "RPL_(programming_language)"
+	"Stack-oriented language
+5" -- "RPL_(programming_language)"
+	"Object-oriented
+125" -- "RPL_(programming_language)"
+	"Structured
+68" -- "S3_(programming_language)"
+	"Imperative
+132" -- "S3_(programming_language)"
+	"Imperative
+132" -- Python_for_S60
+	"Object-oriented
+125" -- Python_for_S60
+	"Multi-paradigm language
+109" -- Python_for_S60
+	"Functionqal_programming
+1" -- Python_for_S60
 }

@@ -1,7 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from graphviz import Graph
 from collections import Counter
-import random
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 
@@ -22,7 +21,7 @@ sparql.setQuery("""
 """)
 
 results = sparql.query().convert()
-print(len(results['results']['bindings']))
+sizeOfProgrammingLanguages = len(results['results']['bindings'])
 queried = {}
 paradigmas = {}
 renderSet = []
@@ -54,16 +53,25 @@ for result in results["results"]["bindings"]:
         print('%s: %s' % (name[1], result["paradigm"]["value"]))
 
 
-g.node_attr.update(color='#9dd600', style='filled', fontname='helvetica')
+biggestOccurrence = 0
+
+g.node_attr.update(color='#BDBDBD', style='filled', fontname='helvetica')
 counterResults = dict(Counter([i[0] for i in renderSet]))
 for count in counterResults.keys():
     occurrence = counterResults.get(count)
+
+    if(occurrence > biggestOccurrence):
+        biggestOccurrence = occurrence
+
     g.attr('node',
     fixedsize='shape',
-    color='#00a2ed',
+    color='#BDBDBD',
     fontsize=str((occurrence*5)+100),
      width=str((occurrence/2)), height=str((occurrence/2)))
-    g.node(count)
+    newLabel = count + "\n" + str(occurrence)
+    g.node(newLabel) 
+    renderSet = [(newLabel, i[1]) if (i[0] == count) else i for i in renderSet]
+
 
 g.attr('node',
     color='#fc4e0f',
@@ -73,6 +81,7 @@ for renderEntry in renderSet:
     g.edge(renderEntry[0], renderEntry[1])
 
 print(len(renderSet))
+
 
 g.render()
 
