@@ -1,46 +1,27 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from graphviz import Digraph
+from difflib import SequenceMatcher
 import string
 import re
 
-dict = { 
-"array" : "array programming",
-"concurrent" : "concurrent programming",
-"declarative" : "declarative programming",
-"educational" : "educational programming language",
-"esoteric" : "esoteric programming language",
-"event driven" : "event-driven programming",
-"event-driven" : "event-driven programming",
-"functional" : "functional programming",
-"functionqal programming" : "functional programming",
-"generic" : "generic programming",
-"lazy" : "lazy evaluation",
-"logic" : "logic programming",
-"meta" : "meta programming",
-"modular" : "modular programming",
-"multi paradigm" : "multi-paradigm programming language",
-"multi-paradigm" : "multi-paradigm programming language",
-"non strict" : "non-strict programming language",
-"non-strict" : "non-strict programming language",
-"imperative" : "imperative programming language",
-"object oriented" : "object-oriented programming language",
-"object-oriented" : "object-oriented programming language",
-"object oriented programming" : "object-oriented programming language",
-"parallel" : "parallel programming",
-"procedural" : "procedural programming",
-"reactive" : "reactive programming",
-"reflective" : "reflective programming",
-"scripting" : "scripting language",
-"structured" : "scructured programming",
-"unstructured" : "unstructured programming"
-}
+delimiters = ":", ",", ";", " and "
+delRegexPattern = '|'.join(map(re.escape, delimiters))
 
-def normalize(text):
-    text = text.lower().translate(str.maketrans({'(':None, ')':None, ";":None, '_':" "}))
-    for i, j in dict.items():
-        if text in dict:
-            text = text.replace(i, j)
-    return text.capitalize()
+replacers = {
+"programming" : "",
+"language" : "",
+" later " : " ",
+"-" : "",
+"(" : "",
+")" : ""
+}
+repRegexPattern = re.compile("(%s)" % "|".join(map(re.escape, replacers.keys())))
+
+def normalize(str):
+    return repRegexPattern.sub(lambda mo: replacers[mo.string[mo.start():mo.end()]], str).strip().lower()
+
+def similar(str1, str2):
+    return SequenceMatcher(None, str1, str2).ratio()
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 sparql.setQuery("""
@@ -79,21 +60,22 @@ for result in results["results"]["bindings"]:
                 queried[paradigm] = paradigmLabel["results"]["bindings"][0]["label"]["value"]
             else:
                 queried[paradigm] = paradigm.split("resource/")[1]
-        print('%s: %s' % (name[1], queried.get(paradigm)))
+        #print('%s: %s' % (name[1], queried.get(paradigm)))
         paradigmas[name[1]] = queried.get(paradigm)
         g.edge(queried.get(paradigm),name[1] )
     else:
-        print('%s: %s' % (name[1], result["paradigm"]["value"]))
+        #print('%s: %s' % (name[1], result["paradigm"]["value"]))
         notmatched[name[1]] = result["paradigm"]["value"]
 
 for name in notmatched:
-    paradigmList = [x.strip() for x in re.split(r'[,:/]', notmatched[name].lower())]
+    paradigmList = re.split(delRegexPattern, normalize(notmatched[name]))
     for elem in paradigmList:
         for k,v in queried.items():
-            if normalize(elem) == v:
-               print('%s: %s' % (name, v))
-               g.edge(v, name)
-               break
+            similarity = similar(normalize(elem), normalize(v))
+            if similarity > 0.95:
+                g.edge(v, name)
+                print('%s,%s => %s, %s' % (name.encode('ascii', 'ignore'), elem, v, similarity))
+                break
 
 g.render()
 

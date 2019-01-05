@@ -980,152 +980,185 @@ digraph G {
 	Functionqal_programming -> Python_for_S60
 	"Multi-paradigm programming language" -> "Lua_(programming_language)"
 	"Scripting language" -> "Lua_(programming_language)"
-	"Imperative programming language" -> "Lua_(programming_language)"
+	"Imperative programming" -> "Lua_(programming_language)"
 	"Functional programming" -> "Lua_(programming_language)"
 	"Concurrent programming" -> VHDL
 	"Reactive programming" -> VHDL
 	"Multi-paradigm programming language" -> "Claire_(programming_language)"
 	"Functional programming" -> "Claire_(programming_language)"
-	"Object-oriented programming language" -> "Claire_(programming_language)"
+	"Object-oriented programming" -> "Claire_(programming_language)"
 	"Reflective programming" -> "Claire_(programming_language)"
-	"Imperative programming language" -> "Split-C"
+	"Imperative programming" -> "Split-C"
+	"Structured programming" -> "Split-C"
 	"Parallel programming" -> "Split-C"
 	"Parallel programming" -> NESL
 	"Functional programming" -> NESL
 	"Array programming" -> NESL
-	"Imperative programming language" -> "Draco_(programming_language)"
-	"Imperative programming language" -> "Modula-2+"
+	"Imperative programming" -> "Draco_(programming_language)"
+	"Structured programming" -> "Draco_(programming_language)"
+	"Imperative programming" -> "Modula-2+"
+	"Structured programming" -> "Modula-2+"
 	"Modular programming" -> "Modula-2+"
-	"Imperative programming language" -> "C_(programming_language)"
+	"Unstructured programming" -> BASIC
+	"Procedural programming" -> BASIC
+	"Object-oriented programming" -> BASIC
+	"Imperative programming" -> "C_(programming_language)"
+	"Structured programming" -> "C_(programming_language)"
 	"Multi-paradigm programming language" -> Fortran
-	"Imperative programming language" -> Fortran
+	"Structured programming" -> Fortran
+	"Imperative programming" -> Fortran
 	"Generic programming" -> Fortran
 	"Multi-paradigm programming language" -> "Icon_(programming_language)"
+	"Structured programming" -> "Icon_(programming_language)"
 	"Multi-paradigm programming language" -> JavaScript
 	"Scripting language" -> JavaScript
-	"Object-oriented programming language" -> JavaScript
-	"Imperative programming language" -> JavaScript
+	"Object-oriented programming" -> JavaScript
+	"Imperative programming" -> JavaScript
 	"Functional programming" -> JavaScript
 	"Event-driven programming" -> JavaScript
 	"Multi-paradigm programming language" -> "Java_(programming_language)"
-	"Object-oriented programming language" -> "Java_(programming_language)"
-	"Imperative programming language" -> "Java_(programming_language)"
+	"Object-oriented programming" -> "Java_(programming_language)"
+	"Structured programming" -> "Java_(programming_language)"
+	"Imperative programming" -> "Java_(programming_language)"
 	"Generic programming" -> "Java_(programming_language)"
 	"Reflective programming" -> "Java_(programming_language)"
 	"Concurrent programming" -> "Java_(programming_language)"
 	"Multi-paradigm programming language" -> Perl
 	"Functional programming" -> Perl
-	"Imperative programming language" -> Perl
-	"Object-oriented programming language" -> Perl
+	"Imperative programming" -> Perl
+	"Object-oriented programming" -> Perl
 	"Reflective programming" -> Perl
 	"Procedural programming" -> Perl
 	"Event-driven programming" -> Perl
 	"Generic programming" -> Perl
-	"Imperative programming language" -> QuakeC
-	"Object-oriented programming language" -> J_Sharp
-	"Imperative programming language" -> J_Sharp
+	"Imperative programming" -> QuakeC
+	"Structured programming" -> QuakeC
+	"Object-oriented programming" -> J_Sharp
+	"Structured programming" -> J_Sharp
+	"Imperative programming" -> J_Sharp
 	"Multi-paradigm programming language" -> "Tea_(programming_language)"
 	"Functional programming" -> "Tea_(programming_language)"
-	"Object-oriented programming language" -> "Tea_(programming_language)"
+	"Object-oriented programming" -> "Tea_(programming_language)"
 	"Multi-paradigm programming language" -> "Go!_(programming_language)"
 	"Concurrent programming" -> "Go!_(programming_language)"
 	"Logic programming" -> "Go!_(programming_language)"
 	"Functional programming" -> "Go!_(programming_language)"
-	"Imperative programming language" -> "Go!_(programming_language)"
-	"Imperative programming language" -> "Handel-C"
+	"Imperative programming" -> "Go!_(programming_language)"
+	"Imperative programming" -> "Handel-C"
 	"Concurrent programming" -> "Handel-C"
 	"Multi-paradigm programming language" -> "Qore_(programming_language)"
-	"Parallel programming" -> "Qore_(programming_language)"
 	"Functional programming" -> "Qore_(programming_language)"
-	"Imperative programming language" -> "Qore_(programming_language)"
-	"Object-oriented programming language" -> "Qore_(programming_language)"
+	"Imperative programming" -> "Qore_(programming_language)"
+	"Object-oriented programming" -> "Qore_(programming_language)"
 	"Procedural programming" -> "Qore_(programming_language)"
 	"Functional programming" -> "Qore_(programming_language)"
 	"Parallel programming" -> Global_Arrays
-	"Imperative programming language" -> Global_Arrays
+	"Imperative programming" -> Global_Arrays
+	"Structured programming" -> Global_Arrays
 	"Multi-paradigm programming language" -> PowerShell
-	"Imperative programming language" -> PowerShell
-	"Object-oriented programming language" -> PowerShell
-	"Object-oriented programming language" -> "Parser_(CGI_language)"
-	"Imperative programming language" -> Intel_Parallel_Building_Blocks
+	"Imperative programming" -> PowerShell
+	"Pipeline programming" -> PowerShell
+	"Object-oriented programming" -> PowerShell
+	"Functional programming" -> PowerShell
+	"Reflective programming" -> PowerShell
+	"Term-rewriting" -> "TXL_(programming_language)"
+	"Object-oriented programming" -> "Parser_(CGI_language)"
+	"Imperative programming" -> Intel_Parallel_Building_Blocks
+	"Structured programming" -> Intel_Parallel_Building_Blocks
 	"Parallel programming" -> Intel_Parallel_Building_Blocks
 	"Multi-paradigm programming language" -> AngelScript
 	"Scripting language" -> AngelScript
-	"Imperative programming language" -> AngelScript
+	"Imperative programming" -> AngelScript
 	"Stack-based" -> "Beatnik_(programming_language)"
-	"Imperative programming language" -> BLISS
-	"Object-oriented programming language" -> "Charm++"
+	"Structured programming" -> BLISS
+	"Imperative programming" -> BLISS
+	"Object-oriented programming" -> "Charm++"
 	"Multi-paradigm programming language" -> "Dart_(programming_language)"
 	"Scripting language" -> "Dart_(programming_language)"
-	"Object-oriented programming language" -> "Dart_(programming_language)"
-	"Imperative programming language" -> "Dart_(programming_language)"
+	"Object-oriented programming" -> "Dart_(programming_language)"
+	"Imperative programming" -> "Dart_(programming_language)"
 	"Functional programming" -> "Dart_(programming_language)"
-	"Imperative programming language" -> "Modula-2"
+	"Imperative programming" -> "Modula-2"
+	"Structured programming" -> "Modula-2"
 	"Modular programming" -> "Modula-2"
 	"Parallel programming" -> Unified_Parallel_C
 	"Message passing" -> Unified_Parallel_C
-	"Imperative programming language" -> Unified_Parallel_C
-	"Imperative programming language" -> CWEB
-	"Object-oriented programming language" -> "Self_(programming_language)"
+	"Imperative programming" -> Unified_Parallel_C
+	"Structured programming" -> Unified_Parallel_C
+	"Imperative programming" -> CWEB
+	"Structured programming" -> CWEB
+	"Object-oriented programming" -> "Self_(programming_language)"
+	"Term-rewriting" -> Refal
 	"Multi-paradigm programming language" -> Coarray_Fortran
 	"Parallel programming" -> Coarray_Fortran
 	"Message passing" -> Coarray_Fortran
-	"Imperative programming language" -> Coarray_Fortran
+	"Imperative programming" -> Coarray_Fortran
+	"Structured programming" -> Coarray_Fortran
 	"Multi-paradigm programming language" -> ActionScript
-	"Object-oriented programming language" -> ActionScript
+	"Object-oriented programming" -> ActionScript
 	"Functional programming" -> ActionScript
-	"Imperative programming language" -> ActionScript
+	"Imperative programming" -> ActionScript
 	"Scripting language" -> ActionScript
 	"Multi-paradigm programming language" -> Caml
 	"Functional programming" -> Caml
+	"Imperative programming" -> Caml
 	"Multi-paradigm programming language" -> "Julia_(programming_language)"
 	"Procedural programming" -> "Julia_(programming_language)"
 	"Functional programming" -> "Julia_(programming_language)"
-	"Meta programming" -> "Julia_(programming_language)"
+	Metaprogramming -> "Julia_(programming_language)"
+	"Event-driven programming" -> Visual_Basic
 	"Multi-paradigm programming language" -> "Visual_Basic_.NET"
-	"Imperative programming language" -> "Visual_Basic_.NET"
-	"Object-oriented programming language" -> "Visual_Basic_.NET"
+	"Structured programming" -> "Visual_Basic_.NET"
+	"Imperative programming" -> "Visual_Basic_.NET"
+	"Object-oriented programming" -> "Visual_Basic_.NET"
 	"Declarative programming" -> "Visual_Basic_.NET"
 	"Generic programming" -> "Visual_Basic_.NET"
+	"Reflective programming" -> "Visual_Basic_.NET"
+	"Event-driven programming" -> "Visual_Basic_.NET"
+	"Procedural programming" -> Basic4ppc
+	"Event-driven programming" -> Basic4ppc
 	"Functional programming" -> "Curry_(programming_language)"
 	"Logic programming" -> "Curry_(programming_language)"
 	"Non-strict programming language" -> "Curry_(programming_language)"
 	"Modular programming" -> "Curry_(programming_language)"
 	"Multi-paradigm programming language" -> "Lasso_(programming_language)"
-	"Imperative programming language" -> "Lasso_(programming_language)"
+	"Imperative programming" -> "Lasso_(programming_language)"
 	"Procedural programming" -> "Lasso_(programming_language)"
 	"Concurrent programming" -> "Lasso_(programming_language)"
-	"Meta programming" -> "Lasso_(programming_language)"
+	Metaprogramming -> "Lasso_(programming_language)"
 	"Reflective programming" -> "Lasso_(programming_language)"
 	"Declarative programming" -> XUL
-	"Imperative programming language" -> Cilk
+	"Imperative programming" -> Cilk
+	"Structured programming" -> Cilk
 	"Parallel programming" -> Cilk
 	"Multi-paradigm programming language" -> NewLISP
-	"Object-oriented programming language" -> Object_REXX
+	"Object-oriented programming" -> Object_REXX
 	"Functional programming" -> "Albatross_(programming_language)"
-	"Imperative programming language" -> "Albatross_(programming_language)"
-	"Object-oriented programming language" -> "Albatross_(programming_language)"
-	"Object-oriented programming language" -> Linotte
+	"Imperative programming" -> "Albatross_(programming_language)"
+	"Object-oriented programming" -> "Albatross_(programming_language)"
+	"Object-oriented programming" -> Linotte
+	"Structured programming" -> Linotte
+	"Imperative programming" -> Linotte
 	"Procedural programming" -> "Fjölnir_(programming_language)"
-	"Object-oriented programming language" -> "Fjölnir_(programming_language)"
-	"Imperative programming language" -> "TUTOR_(programming_language)"
+	"Object-oriented programming" -> "Fjölnir_(programming_language)"
+	"Imperative programming" -> "TUTOR_(programming_language)"
 	"Functional programming" -> "Frege_(programming_language)"
-	"Lazy evaluation" -> "Frege_(programming_language)"
-	"Non-strict programming language" -> "Frege_(programming_language)"
 	"Multi-paradigm programming language" -> "Falcon_(programming_language)"
 	"Procedural programming" -> "Falcon_(programming_language)"
-	"Object-oriented programming language" -> "Falcon_(programming_language)"
+	"Object-oriented programming" -> "Falcon_(programming_language)"
 	"Functional programming" -> "Falcon_(programming_language)"
 	"Message passing" -> "Falcon_(programming_language)"
+	"Domain-specific language" -> "Frenetic_(programming_language)"
 	"Reactive programming" -> "Frenetic_(programming_language)"
 	"Modular programming" -> "Frenetic_(programming_language)"
-	"Imperative programming language" -> PROMAL
-	"Object-oriented programming language" -> AgentSheets
+	"Imperative programming" -> PROMAL
+	"Structured programming" -> PROMAL
+	"Object-oriented programming" -> AgentSheets
 	"Educational programming language" -> AgentSheets
 	"Esoteric programming language" -> Malbolge
-	"Imperative programming language" -> Malbolge
+	"Imperative programming" -> Malbolge
 	"Procedural programming" -> "G-code"
-	"Imperative programming language" -> "G-code"
+	"Imperative programming" -> "G-code"
 	"Functional programming" -> Quark_Framework
 	"Non-strict programming language" -> Quark_Framework
 	"Modular programming" -> Quark_Framework
