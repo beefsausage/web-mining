@@ -1,7 +1,33 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
-from graphviz import Graph
+
 from collections import Counter
+from difflib import SequenceMatcher
+from graphviz import Graph
 import random
+import re
+import string
+
+delimiters = ":", ",", ";", "/", " and "
+delRegexPattern = '|'.join(map(re.escape, delimiters))
+
+replacers = {
+"programming" : "",
+"language" : "",
+" later " : " ",
+"-" : " ",
+"(" : "",
+")" : ""
+}
+repRegexPattern = re.compile("(%s)" % "|".join(map(re.escape, replacers.keys())))
+
+def normalize(str):
+    return repRegexPattern.sub(lambda x: replacers[x.string[x.start():x.end()]], str).lower()
+
+def split(str):
+    return [x.strip() for x in re.split(delRegexPattern, normalize(str))]
+
+def similar(str1, str2):
+    return SequenceMatcher(None, str1, str2).ratio()
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 
@@ -26,6 +52,8 @@ print(len(results['results']['bindings']))
 queried = {}
 paradigmas = {}
 renderSet = []
+paradigmCount = {}
+notmatched = {}
 
 g = Graph(filename='miner.gv', engine='sfdp', format='png')
 g.attr(size='20', repulsiveforce='0.1', overlap='false',splines='curved')
@@ -52,7 +80,17 @@ for result in results["results"]["bindings"]:
         renderSet.append((queried.get(paradigm).replace("programming ","").replace(" programming", ""),name[1]))
     else:
         print('%s: %s' % (name[1], result["paradigm"]["value"]))
+        notmatched[name[1]] = result["paradigm"]["value"]
 
+for p in notmatched:
+    paradigmList = split(notmatched[p])
+    for elem in paradigmList:
+        for k,v in queried.items():
+            similarity = similar(normalize(elem), normalize(v))
+            if similarity > 0.95:
+                g.edge(v, p)
+                print('%s,%s => %s, %s' % (p, elem, v, similarity))
+                break
 
 g.node_attr.update(color='#9dd600', style='filled', fontname='helvetica')
 counterResults = dict(Counter([i[0] for i in renderSet]))
