@@ -121,4 +121,3 @@ print("Rendering finished")
 withParadigm = len(set([i[1] for i in renderSet]))
 
 print("Programming languages from DBpedia: %i \nwith Paradigm: %i" % (totalProgrammingLanguages, withParadigm))
-
