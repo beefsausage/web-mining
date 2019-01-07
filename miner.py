@@ -1,24 +1,16 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 from collections import Counter
+from collections import defaultdict
 from difflib import SequenceMatcher
 from graphviz import Graph
-import random
 import re
 import string
 
 delimiters = ":", ",", ";", "/", " and "
 delRegexPattern = '|'.join(map(re.escape, delimiters))
 
-replacers = {
-"programming" : "",
-"language" : "",
-" later " : " ",
-"-" : " ",
-"_" : " ",
-"(" : "",
-")" : "",
-}
+replacers = dict.fromkeys(['programming', 'language', ' later ', '-', '_', '(', ')', ' '], None)
 repRegexPattern = re.compile("(%s)" % "|".join(map(re.escape, replacers.keys())))
 
 def normalize(str):
@@ -29,18 +21,6 @@ def split(str):
 
 def similar(str1, str2):
     return SequenceMatcher(None, str1, str2).quick_ratio()
-
-def occurrenceCounter(dic, str):
-    if str in dic:
-        dic[str] += 1
-    else:
-        dic[str] = 1
-
-def appendToDicValue(dic, key, value):
-    if key in dic:
-        dic[key].append(value)
-    else:
-        dic[key] = [value]
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 
@@ -61,9 +41,10 @@ sparql.setQuery("""
 """)
 
 results = sparql.query().convert()
+sizeOfProgrammingLanguages = len(results['results']['bindings'])
 queried = {}
-paradigmaOccurences = {}
-languages = {}
+paradigmOccurences = defaultdict(int)
+programmingLanguages = defaultdict(list)
 renderSet = []
 
 g = Graph(filename='miner.gv', engine='sfdp', format='png')
@@ -87,34 +68,45 @@ for result in results["results"]["bindings"]:
                 queried[paradigm] = paradigmLabel["results"]["bindings"][0]["label"]["value"]
             else:
                 queried[paradigm] = paradigm.split("resource/")[1]
-
         #print('%s: %s' % (name[1], queried.get(paradigm)))
-        occurrenceCounter(paradigmaOccurences, queried.get(paradigm))
-        appendToDicValue(languages, name[1], queried.get(paradigm))
+        paradigmOccurences[queried.get(paradigm)] += 1
+        programmingLanguages[name[1]].append(queried.get(paradigm))
 
     else:
         #print('%s: %s' % (name[1], result["paradigm"]["value"]))
-        languages[name[1]] = split(result["paradigm"]["value"])
+        programmingLanguages[name[1]] = split(result["paradigm"]["value"])
 
-for language, paradigmlist in languages.items():
-    for e in paradigmlist:
-        for pname, count in sorted(paradigmaOccurences.items(), key=lambda x: x[1], reverse = True):
-            s = similar(normalize(e),normalize(pname))
+paradigmOccurences = sorted(paradigmOccurences.items(), key=lambda x: x[1], reverse = True)
+normalizedParadigma = {k:normalize(k) for k,v in paradigmOccurences}
+
+for language, paradigmlist in programmingLanguages.items():
+    for p in paradigmlist:
+        n = normalize(p)
+        for pname, count in paradigmOccurences:
+            s = similar(n,normalizedParadigma.get(pname))
             if s > 0.95:
-                print('%s: %s => %s: %s %%' % (language, e, pname,s*100))
-                renderSet.append((pname,language))
+                print('%s: %s => %s: %s %%' % (language, p, pname,s*100))
+                renderSet.append((pname.replace("programming ","").replace(" programming", ""),language))
                 break
 
-g.node_attr.update(color='#9dd600', style='filled', fontname='helvetica')
+biggestOccurrence = 0
+
+g.node_attr.update(color='#BDBDBD', style='filled', fontname='helvetica')
 counterResults = dict(Counter([i[0] for i in renderSet]))
 for count in counterResults.keys():
     occurrence = counterResults.get(count)
+
+    if(occurrence > biggestOccurrence):
+        biggestOccurrence = occurrence
+
     g.attr('node',
     fixedsize='shape',
-    color='#00a2ed',
+    color='#BDBDBD',
     fontsize=str((occurrence*5)+100),
      width=str((occurrence/2)), height=str((occurrence/2)))
-    g.node(count)
+    newLabel = count + "\n" + str(occurrence)
+    g.node(newLabel) 
+    renderSet = [(newLabel, i[1]) if (i[0] == count) else i for i in renderSet]
 
 g.attr('node',
     color='#fc4e0f',
@@ -122,7 +114,6 @@ g.attr('node',
     width="2", height="2")
 for renderEntry in renderSet:
     g.edge(renderEntry[0], renderEntry[1])
-    #print(renderEntry)
 
 print(len(renderSet))
 g.render()
