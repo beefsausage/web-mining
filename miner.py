@@ -31,7 +31,7 @@ sparql.setQuery("""
 """)
 
 sparql.setReturnFormat(JSON)
-print(len( sparql.query().convert()['results']['bindings']))
+totalProgrammingLanguages = len(sparql.query().convert()['results']['bindings'])
 sparql.setQuery("""
     SELECT ?pl ?paradigm
     WHERE {
@@ -68,12 +68,12 @@ for result in results["results"]["bindings"]:
                 queried[paradigm] = paradigmLabel["results"]["bindings"][0]["label"]["value"]
             else:
                 queried[paradigm] = paradigm.split("resource/")[1]
-        #print('%s: %s' % (name[1], queried.get(paradigm)))
+        print('%s: %s' % (name[1], queried.get(paradigm)))
         paradigmOccurences[queried.get(paradigm)] += 1
         programmingLanguages[name[1]].append(queried.get(paradigm))
 
     else:
-        #print('%s: %s' % (name[1], result["paradigm"]["value"]))
+        print('%s: %s' % (name[1], result["paradigm"]["value"]))
         programmingLanguages[name[1]] = split(result["paradigm"]["value"])
 
 paradigmOccurences = sorted(paradigmOccurences.items(), key=lambda x: x[1], reverse = True)
@@ -115,6 +115,10 @@ g.attr('node',
 for renderEntry in renderSet:
     g.edge(renderEntry[0], renderEntry[1])
 
-print(len(renderSet))
 g.render()
+print("Rendering finished")
+
+withParadigm = len(set([i[1] for i in renderSet]))
+
+print("Programming languages from DBpedia: %i \nwith Paradigm: %i" % (totalProgrammingLanguages, withParadigm))
 
