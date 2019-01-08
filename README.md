@@ -1,6 +1,18 @@
 # web-mining
 Mining programming languages and graphing them by their paradigms
 
+## Requirements
+SPARQLWrapper
+```
+pip install SPARQLWrapper
+```
+Graphviz
+```
+pip install graphviz
+```
+Also make sure to install Graphviz standalone on your OS.  
+https://www.graphviz.org/
+
 ## Usage
 Run the **miner.py** File with Python3 to reproduce the graph :)
 
