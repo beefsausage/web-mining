@@ -1,90 +1,174 @@
 graph {
 	node [color="#BDBDBD" fontname=helvetica style=filled]
 	overlap=false repulsiveforce=0.1 size=20 splines=curved
-	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Markup language
-1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=970 height=87.0 width=87.0]
+	"Imperative
+174"
 	node [color="#BDBDBD" fixedsize=shape fontsize=860 height=76.0 width=76.0]
 	"Object-oriented
 152"
 	node [color="#BDBDBD" fixedsize=shape fontsize=790 height=69.0 width=69.0]
 	"Multi-paradigm language
 138"
+	node [color="#BDBDBD" fixedsize=shape fontsize=765 height=66.5 width=66.5]
+	"Functional
+133"
 	node [color="#BDBDBD" fixedsize=shape fontsize=545 height=44.5 width=44.5]
 	"Procedural
 89"
+	node [color="#BDBDBD" fixedsize=shape fontsize=540 height=44.0 width=44.0]
+	"Structured
+88"
+	node [color="#BDBDBD" fixedsize=shape fontsize=225 height=12.5 width=12.5]
+	"Concurrent
+25"
 	node [color="#BDBDBD" fixedsize=shape fontsize=210 height=11.0 width=11.0]
 	"Event-driven
 22"
 	node [color="#BDBDBD" fixedsize=shape fontsize=205 height=10.5 width=10.5]
 	"Scripting language
 21"
-	node [color="#BDBDBD" fixedsize=shape fontsize=970 height=87.0 width=87.0]
-	"Imperative
-174"
-	node [color="#BDBDBD" fixedsize=shape fontsize=765 height=66.5 width=66.5]
-	"Functional
-133"
-	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
-	"Dataflow
-6"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Unstructured
-3"
 	node [color="#BDBDBD" fixedsize=shape fontsize=200 height=10.0 width=10.0]
 	"Declarative
 20"
-	node [color="#BDBDBD" fixedsize=shape fontsize=225 height=12.5 width=12.5]
-	"Concurrent
-25"
-	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Reactive
-4"
-	node [color="#BDBDBD" fixedsize=shape fontsize=540 height=44.0 width=44.0]
-	"Structured
-88"
 	node [color="#BDBDBD" fixedsize=shape fontsize=200 height=10.0 width=10.0]
 	"Reflective
 20"
-	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Constraint logic
-1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Formal verification
-1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Lazy evaluation
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Non-strict language
-4"
 	node [color="#BDBDBD" fixedsize=shape fontsize=190 height=9.0 width=9.0]
 	"Modular
 18"
-	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Nondeterministic
-1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=135 height=3.5 width=3.5]
-	"Compiled language
-7"
-	node [color="#BDBDBD" fixedsize=shape fontsize=185 height=8.5 width=8.5]
-	"Generic
-17"
-	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Visual language
-5"
 	node [color="#BDBDBD" fixedsize=shape fontsize=190 height=9.0 width=9.0]
 	"Logic
 18"
-	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
-	"Component-based software engineering
-1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=185 height=8.5 width=8.5]
+	"Generic
+17"
+	node [color="#BDBDBD" fixedsize=shape fontsize=180 height=8.0 width=8.0]
+	"Array
+16"
+	node [color="#BDBDBD" fixedsize=shape fontsize=170 height=7.0 width=7.0]
+	"Metaprogramming
+14"
 	node [color="#BDBDBD" fixedsize=shape fontsize=160 height=6.0 width=6.0]
 	"Parallel
 12"
 	node [color="#BDBDBD" fixedsize=shape fontsize=160 height=6.0 width=6.0]
 	"Prototype-based
 12"
+	node [color="#BDBDBD" fixedsize=shape fontsize=145 height=4.5 width=4.5]
+	"Reflection (computer science)
+9"
+	node [color="#BDBDBD" fixedsize=shape fontsize=140 height=4.0 width=4.0]
+	"Educational language
+8"
+	node [color="#BDBDBD" fixedsize=shape fontsize=135 height=3.5 width=3.5]
+	"Compiled language
+7"
+	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
+	"Dataflow
+6"
+	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
+	"Concurrent computing
+6"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Visual language
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Stack-oriented language
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
+	"Distributed
+5"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Reactive
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Non-strict language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Simulation language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Domain-specific language
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
+	"Message passing
+4"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Unstructured
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Lazy evaluation
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Function-level
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Esoteric language
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Concatenative language
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Knowledge representation
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Programming paradigm
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Aspect-oriented
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
+	"Term-rewriting
+3"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Interpreted language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Stack-based
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Assembly language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Query language
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Distributed computing
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Pipeline
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Typesetting
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Design by contract
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Constraint
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Concurrent constraint logic
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
+	"Computer simulation
+2"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Markup language
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Constraint logic
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Formal verification
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Nondeterministic
+1"
+	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
+	"Component-based software engineering
+1"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Action language
 1"
@@ -97,24 +181,12 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Dependent type
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=180 height=8.0 width=8.0]
-	"Array
-16"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Agent-oriented
 1"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Synchronous language
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Function-level
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=130 height=3.0 width=3.0]
-	"Concurrent computing
-6"
-	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Simulation language
-4"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Graphical
 1"
@@ -124,39 +196,9 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"High-level assembler
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Interpreted language
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Data-driven
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Esoteric language
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=170 height=7.0 width=7.0]
-	"Metaprogramming
-14"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Concatenative language
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=145 height=4.5 width=4.5]
-	"Reflection (computer science)
-9"
-	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Stack-oriented language
-5"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Knowledge representation
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Programming paradigm
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=140 height=4.0 width=4.0]
-	"Educational language
-8"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Stack-based
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Language oriented
 1"
@@ -166,39 +208,15 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"The Task-based Asynchronous Pattern
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Assembly language
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Protocol (object-oriented)
 1"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Block (programming)
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Query language
-2"
-	node [color="#BDBDBD" fixedsize=shape fontsize=125 height=2.5 width=2.5]
-	"Distributed
-5"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Process-oriented
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Distributed computing
-2"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Pipeline
-2"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Typesetting
-2"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Aspect-oriented
-3"
-	node [color="#BDBDBD" fixedsize=shape fontsize=115 height=1.5 width=1.5]
-	"Term-rewriting
-3"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Template engine (web)
 1"
@@ -217,18 +235,9 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"End-user development
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Domain-specific language
-4"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Design by contract
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Scripting Language
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Constraint
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Data-centric language
 1"
@@ -241,9 +250,6 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Declarative Language
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=120 height=2.0 width=2.0]
-	"Message passing
-4"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Natural language
 1"
@@ -253,9 +259,6 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Object-capability model
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Concurrent constraint logic
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Reversible computing
 1"
@@ -292,9 +295,6 @@ graph {
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Extensible
 1"
-	node [color="#BDBDBD" fixedsize=shape fontsize=110 height=1.0 width=1.0]
-	"Computer simulation
-2"
 	node [color="#BDBDBD" fixedsize=shape fontsize=105 height=0.5 width=0.5]
 	"Algorithmic_programming
 1"

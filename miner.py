@@ -2,10 +2,12 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 from collections import Counter
 from collections import defaultdict
+from collections import OrderedDict
 from difflib import SequenceMatcher
 from graphviz import Graph
 import re
 import string
+import csv
 
 delimiters = ":", ",", ";", "/", " and "
 delRegexPattern = '|'.join(map(re.escape, delimiters))
@@ -92,21 +94,31 @@ for language, paradigmlist in programmingLanguages.items():
 biggestOccurrence = 0
 
 g.node_attr.update(color='#BDBDBD', style='filled', fontname='helvetica')
-counterResults = dict(Counter([i[0] for i in renderSet]))
-for count in counterResults.keys():
-    occurrence = counterResults.get(count)
+counterResults = OrderedDict(Counter([i[0] for i in renderSet]).most_common())
 
-    if(occurrence > biggestOccurrence):
-        biggestOccurrence = occurrence
 
-    g.attr('node',
-    fixedsize='shape',
-    color='#BDBDBD',
-    fontsize=str((occurrence*5)+100),
-     width=str((occurrence/2)), height=str((occurrence/2)))
-    newLabel = count + "\n" + str(occurrence)
-    g.node(newLabel) 
-    renderSet = [(newLabel, i[1]) if (i[0] == count) else i for i in renderSet]
+#write to CSV and map occurrences to nodes
+with open('data.csv', 'w') as csvfile:
+    fieldnames = ['programming_language', 'occurrence']
+    csvwriter = csv.DictWriter(csvfile, fieldnames = fieldnames)
+    csvwriter.writeheader()
+
+    for count in counterResults.keys():
+        occurrence = counterResults.get(count)
+
+        csvwriter.writerow({fieldnames[0] : count, fieldnames[1] : occurrence})
+
+        if(occurrence > biggestOccurrence):
+            biggestOccurrence = occurrence
+
+        g.attr('node',
+        fixedsize='shape',
+        color='#BDBDBD',
+        fontsize=str((occurrence*5)+100),
+        width=str((occurrence/2)), height=str((occurrence/2)))
+        newLabel = count + "\n" + str(occurrence)
+        g.node(newLabel) 
+        renderSet = [(newLabel, i[1]) if (i[0] == count) else i for i in renderSet]
 
 g.attr('node',
     color='#fc4e0f',
