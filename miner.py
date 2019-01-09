@@ -1,8 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-from collections import Counter
-from collections import defaultdict
-from collections import OrderedDict
+from collections import Counter, defaultdict, OrderedDict
 from difflib import SequenceMatcher
 from graphviz import Graph
 import re
@@ -15,12 +13,16 @@ delRegexPattern = '|'.join(map(re.escape, delimiters))
 replacers = dict.fromkeys(['programming', 'language', ' later ', '-', '_', '(', ')', ' '], None)
 repRegexPattern = re.compile("(%s)" % "|".join(map(re.escape, replacers.keys())))
 
+# Returns a normalized string. All lower case, stripped whitespaces and removed "replacers"
 def normalize(str):
-    return repRegexPattern.sub(lambda x: replacers[x.string[x.start():x.end()]], str).strip().lower()
+    return repRegexPattern.sub(lambda x: replacers[x.string[x.start():x.end()]], str).lower()
 
+# Splits a string using delimiters and returns a list,
+# i.e. "functional, imperative" -> ['functional', 'imperative']
 def split(str):
     return [x.strip() for x in re.split(delRegexPattern, str)]
 
+# Compares the similarity of two strings. Returns a float value in the range [0, 1]
 def similar(str1, str2):
     return SequenceMatcher(None, str1, str2).quick_ratio()
 
@@ -51,10 +53,14 @@ renderSet = []
 
 g = Graph(filename='miner.gv', engine='sfdp', format='png')
 g.attr(size='20', repulsiveforce='0.1', overlap='false',splines='curved')
+
+# Iterates through all retrieved results and collects all programming languages
+# and their associated paradigms in the programmingLanguages dict for later usage.
 for result in results["results"]["bindings"]:
     name = result["pl"]["value"].split("resource/")
     paradigm = result["paradigm"]["value"]
 
+    # If the paradigm of a programming language is an url it can be queried
     if paradigm.startswith("http://dbpedia.org"):
         if paradigm not in queried:
             queryParadigm = """
@@ -66,14 +72,19 @@ for result in results["results"]["bindings"]:
             """.format(paradigm)
             sparql.setQuery(queryParadigm)
             paradigmLabel = sparql.query().convert()
+
+            # The name can be obtained from the value field, if available
             if len(paradigmLabel["results"]["bindings"]) > 0:
                 queried[paradigm] = paradigmLabel["results"]["bindings"][0]["label"]["value"]
+            # Otherwise extract the paradigm name from the url
             else:
                 queried[paradigm] = paradigm.split("resource/")[1]
         print('%s: %s' % (name[1], queried.get(paradigm)))
         paradigmOccurences[queried.get(paradigm)] += 1
         programmingLanguages[name[1]].append(queried.get(paradigm))
 
+    # Otherwise we only receive a string value. A string might contain multiple paradigms.
+    # A matching with the pool of properly retrieved paradigms will take place later. 
     else:
         print('%s: %s' % (name[1], result["paradigm"]["value"]))
         programmingLanguages[name[1]] = split(result["paradigm"]["value"])
@@ -81,6 +92,9 @@ for result in results["results"]["bindings"]:
 paradigmOccurences = sorted(paradigmOccurences.items(), key=lambda x: x[1], reverse = True)
 normalizedParadigma = {k:normalize(k) for k,v in paradigmOccurences}
 
+# Matching all programming languages and their paradigms with the most common way to spell that paradigm,
+# i.e. "functionqal" -> "functional", "object oriented" -> "object-oriented".
+# Subsequently add (programming language, paradigm) tuples to the renderSet
 for language, paradigmlist in programmingLanguages.items():
     for p in paradigmlist:
         n = normalize(p)
@@ -97,7 +111,7 @@ g.node_attr.update(color='#BDBDBD', style='filled', fontname='helvetica')
 counterResults = OrderedDict(Counter([i[0] for i in renderSet]).most_common())
 
 
-#write to CSV and map occurrences to nodes
+# Write to CSV and map occurrences to nodes
 with open('data.csv', 'w') as csvfile:
     fieldnames = ['paradigm', 'occurrence']
     csvwriter = csv.DictWriter(csvfile, fieldnames = fieldnames)
