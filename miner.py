@@ -99,7 +99,7 @@ counterResults = OrderedDict(Counter([i[0] for i in renderSet]).most_common())
 
 #write to CSV and map occurrences to nodes
 with open('data.csv', 'w') as csvfile:
-    fieldnames = ['programming_language', 'occurrence']
+    fieldnames = ['paradigm', 'occurrence']
     csvwriter = csv.DictWriter(csvfile, fieldnames = fieldnames)
     csvwriter.writeheader()
 
